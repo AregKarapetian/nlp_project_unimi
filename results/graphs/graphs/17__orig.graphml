@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="lion" />
+    <node id="horse" />
+    <node id="fox" />
+    <node id="they" />
+    <node id="his position" />
+    <edge source="lion" target="lion" id="0">
+      <data key="d0">was trapped</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lion" target="lion" id="1">
+      <data key="d0">refused to honor</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="lion" target="lion" id="2">
+      <data key="d0">tried to reenact</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="lion" target="horse" id="0">
+      <data key="d0">asked for help</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lion" target="horse" id="1">
+      <data key="d0">wanted to eat</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="lion" target="fox" id="0">
+      <data key="d0">chose the fox as judge</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="horse" target="lion" id="0">
+      <data key="d0">agreed to help</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="horse" target="lion" id="1">
+      <data key="d0">reminded of agreement</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="horse" target="lion" id="2">
+      <data key="d0">threw stones at the lion</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="horse" target="horse" id="0">
+      <data key="d0">dug with hooves</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="horse" target="horse" id="1">
+      <data key="d0">suggested going before judge</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="fox" target="his position" id="0">
+      <data key="d0">asked lion to reenact</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="fox" target="fox" id="0">
+      <data key="d0">told lion to push himself in</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="they" target="they" id="0">
+      <data key="d0">went to rocky cleft</data>
+      <data key="d1">10</data>
+    </edge>
+  </graph>
+</graphml>

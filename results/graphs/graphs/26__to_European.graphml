@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="situation" />
+    <node id="creatures" />
+    <node id="ancient tree" />
+    <node id="tiger" />
+    <node id="chonguita" />
+    <node id="endeavor" />
+    <node id="his companions" />
+    <node id="on the riverbed" />
+    <node id="old tortoise" />
+    <node id="tortoise" />
+    <node id="water" />
+    <node id="lion" />
+    <edge source="situation" target="situation" id="0">
+      <data key="d0">was parched</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="creatures" target="ancient tree" id="0">
+      <data key="d0">gathered 'neath</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="creatures" target="creatures" id="0">
+      <data key="d0">danced on</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="creatures" target="on the riverbed" id="0">
+      <data key="d0">discovered footprints</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="creatures" target="chonguita" id="0">
+      <data key="d0">debated what to do</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="tiger" target="tiger" id="0">
+      <data key="d0">proposed a plan</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="chonguita" target="endeavor" id="0">
+      <data key="d0">refused to join</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="chonguita" target="his companions" id="0">
+      <data key="d0">watched with a smile</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="chonguita" target="water" id="0">
+      <data key="d0">became stuck to pitch</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="old tortoise" target="old tortoise" id="0">
+      <data key="d0">proposed a plan</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="tortoise" target="tortoise" id="0">
+      <data key="d0">lay down and waited</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="tortoise" target="tortoise" id="1">
+      <data key="d0">carried chonguita on his back</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="lion" target="lion" id="0">
+      <data key="d0">freed chonguita accidentally</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

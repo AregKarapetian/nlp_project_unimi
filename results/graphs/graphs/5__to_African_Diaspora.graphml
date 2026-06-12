@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="akua" />
+    <node id="crow" />
+    <node id="akua's basket" />
+    <node id="grain" />
+    <node id="wise elder" />
+    <node id="on behalf of the crow" />
+    <node id="king" />
+    <node id="queen" />
+    <node id="snake" />
+    <node id="stick" />
+    <node id="fire" />
+    <node id="ox" />
+    <node id="mouse" />
+    <edge source="akua" target="akua" id="0">
+      <data key="d0">was winnowing corn</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="akua" target="crow" id="0">
+      <data key="d0">hurled a clod at</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="crow" target="akua's basket" id="0">
+      <data key="d0">snatched a grain</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="crow" target="crow" id="0">
+      <data key="d0">perched on a tree</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="crow" target="crow" id="1">
+      <data key="d0">flew off to seek help</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="crow" target="crow" id="2">
+      <data key="d0">continued on to the palace</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="grain" target="grain" id="0">
+      <data key="d0">dropped into a crack</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="wise elder" target="on behalf of the crow" id="0">
+      <data key="d0">refused to intervene</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="king" target="queen" id="0">
+      <data key="d0">sent the crow to</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="snake" target="snake" id="0">
+      <data key="d0">refused to bite the queen</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="stick" target="stick" id="0">
+      <data key="d0">refused to beat the snake</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="fire" target="fire" id="0">
+      <data key="d0">refused to burn the stick</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="ox" target="ox" id="0">
+      <data key="d0">refused to drink from water</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="mouse" target="mouse" id="0">
+      <data key="d0">laughed at gnawing through rope</data>
+      <data key="d1">14</data>
+    </edge>
+  </graph>
+</graphml>

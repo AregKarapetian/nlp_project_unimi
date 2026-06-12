@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="youth" />
+    <node id="maiden" />
+    <node id="everyone" />
+    <node id="master of the dog" />
+    <node id="bride" />
+    <node id="husband" />
+    <node id="wife" />
+    <node id="jitu" />
+    <node id="jitu's bride" />
+    <edge source="youth" target="youth" id="0">
+      <data key="d0">herded buffaloes</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="youth" target="youth" id="1">
+      <data key="d0">hid himself to watch the dog</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="youth" target="youth" id="2">
+      <data key="d0">followed the dog</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="youth" target="youth" id="3">
+      <data key="d0">wanted to marry the she-dog</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="youth" target="youth" id="4">
+      <data key="d0">asked for the she-dog as his bride</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="maiden" target="maiden" id="0">
+      <data key="d0">put on her dog skin</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="everyone" target="everyone" id="0">
+      <data key="d0">laughed at the youth's idea</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="everyone" target="everyone" id="1">
+      <data key="d0">fixed a day for the wedding</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="master of the dog" target="master of the dog" id="0">
+      <data key="d0">laughed at the idea but accepted a bride's price</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="bride" target="bride" id="0">
+      <data key="d0">transformed back into a maiden</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="husband" target="husband" id="0">
+      <data key="d0">caught his wife in the act</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="wife" target="wife" id="0">
+      <data key="d0">remained human but was of extraordinary beauty</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="jitu" target="jitu" id="0">
+      <data key="d0">decided to marry a dog himself</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="jitu's bride" target="jitu's bride" id="0">
+      <data key="d0">broke loose and ran away</data>
+      <data key="d1">14</data>
+    </edge>
+  </graph>
+</graphml>

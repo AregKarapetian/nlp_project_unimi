@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="lion" />
+    <node id="horse" />
+    <node id="fox" />
+    <edge source="lion" target="lion" id="0">
+      <data key="d0">was trapped in</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lion" target="lion" id="1">
+      <data key="d0">promised to spare the horse's life</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="lion" target="lion" id="2">
+      <data key="d0">reasserted itself</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="lion" target="lion" id="3">
+      <data key="d0">presented his case claiming that his promise no longer bound him</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="lion" target="horse" id="0">
+      <data key="d0">roared at the horse now i will eat you</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="horse" target="horse" id="0">
+      <data key="d0">heard his cries for help and offered to free him</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="horse" target="horse" id="1">
+      <data key="d0">said i'll do that but you must promise not to devour me</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="horse" target="horse" id="2">
+      <data key="d0">stood firm and asked did we not agree that you would not devour me</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="horse" target="horse" id="3">
+      <data key="d0">suggested they seek the judgment of a wise and impartial judge</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="horse" target="lion" id="0">
+      <data key="d0">began throwing stones at it until it was still and silent</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="fox" target="fox" id="0">
+      <data key="d0">was chosen as the arbiter due to his reputation for cunning</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="fox" target="fox" id="1">
+      <data key="d0">proposed a test to see how the two had stood in the rocky cleft when the horse first freed the lion</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="fox" target="fox" id="2">
+      <data key="d0">forced the lion to reenact their original positions</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="fox" target="fox" id="3">
+      <data key="d0">declared that the lion was now exactly as he was before and could be freed again</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

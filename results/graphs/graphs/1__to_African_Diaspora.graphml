@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="king" />
+    <node id="don juan" />
+    <node id="old man" />
+    <node id="big monkey" />
+    <node id="chonguita's mother" />
+    <node id="chonguita" />
+    <edge source="king" target="king" id="0">
+      <data key="d0">called sons to him</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="king" target="king" id="1">
+      <data key="d0">fainted from shock</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="king" target="king" id="2">
+      <data key="d0">ordered couples to make embroidered coats</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="king" target="king" id="3">
+      <data key="d0">ordered daughters-in-law to embroider cap</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="king" target="king" id="4">
+      <data key="d0">ordered daughters-in-law to draw picture on walls</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="don juan" target="old man" id="0">
+      <data key="d0">met old man on road</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="don juan" target="don juan" id="0">
+      <data key="d0">entered palace</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="don juan" target="don juan" id="1">
+      <data key="d0">met brothers and their wives</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="don juan" target="chonguita" id="0">
+      <data key="d0">hurled chonguita against wall</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="big monkey" target="big monkey" id="0">
+      <data key="d0">told don juan he would marry chonguita</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="chonguita's mother" target="chonguita's mother" id="0">
+      <data key="d0">suggested don juan take wife with him</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="0">
+      <data key="d0">created prettiest coat of all</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="1">
+      <data key="d0">created most beautiful cap of all</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="2">
+      <data key="d0">created masterpiece</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

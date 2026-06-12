@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="anansi and his wife" />
+    <node id="akua" />
+    <node id="anansi" />
+    <node id="soldier with a majestic horse" />
+    <node id="soldier" />
+    <edge source="anansi and his wife" target="anansi and his wife" id="0">
+      <data key="d0">sat beneath their roof</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="akua" target="akua" id="0">
+      <data key="d0">asked anansi what they would use to fry the fritters</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="akua" target="akua" id="1">
+      <data key="d0">returned with the borrowed pan</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="akua" target="akua" id="2">
+      <data key="d0">began spinning thread for her weaving</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="akua" target="akua" id="3">
+      <data key="d0">chimed in with a phrase as she continued spinning her thread</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="akua" target="akua" id="4">
+      <data key="d0">cried out in distress</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="akua" target="akua" id="5">
+      <data key="d0">praised anansi's wisdom</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="anansi" target="anansi" id="0">
+      <data key="d0">suggested that akua borrow a pan from his mother's house</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="anansi" target="anansi" id="1">
+      <data key="d0">proposed a challenge</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="anansi" target="anansi" id="2">
+      <data key="d0">exclaimed and told the soldier to carry the pan back</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="anansi" target="anansi" id="3">
+      <data key="d0">took up the task and proved himself the victor once more</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="soldier with a majestic horse" target="soldier with a majestic horse" id="0">
+      <data key="d0">rode by and sought out anansi's help in cutting a girth for his horse</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="soldier" target="soldier" id="0">
+      <data key="d0">grew impatient when anansi refused to speak first</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="soldier" target="soldier" id="1">
+      <data key="d0">seized his sword ready to strike anansi</data>
+      <data key="d1">10</data>
+    </edge>
+  </graph>
+</graphml>

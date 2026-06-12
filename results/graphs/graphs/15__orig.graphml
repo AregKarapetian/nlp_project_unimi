@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="man" />
+    <node id="snake" />
+    <node id="they" />
+    <node id="thin horse" />
+    <node id="horse" />
+    <node id="mulberry tree" />
+    <node id="tree" />
+    <node id="fox" />
+    <node id="dogs" />
+    <edge source="man" target="man" id="0">
+      <data key="d0">went into forest</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="man" target="man" id="1">
+      <data key="d0">raised the stone</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="man" target="man" id="2">
+      <data key="d0">suggested they seek judge</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="man" target="man" id="3">
+      <data key="d0">put dogs in a bag</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="man" target="snake" id="0">
+      <data key="d0">saw a snake</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="man" target="snake" id="1">
+      <data key="d0">tricked the snake</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="snake" target="man" id="0">
+      <data key="d0">said it would eat</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="they" target="thin horse" id="0">
+      <data key="d0">met a horse tied</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="they" target="mulberry tree" id="0">
+      <data key="d0">met a mulberry tree</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="they" target="fox" id="0">
+      <data key="d0">met the fox</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="horse" target="man" id="0">
+      <data key="d0">agreed snake should eat</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="tree" target="man" id="0">
+      <data key="d0">agreed snake should eat</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="fox" target="man" id="0">
+      <data key="d0">agreed to judge in favor</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="dogs" target="fox" id="0">
+      <data key="d0">ate the fox</data>
+      <data key="d1">14</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="lion" />
+    <node id="hare" />
+    <node id="beneath a palm sapling" />
+    <node id="vilva fruit" />
+    <node id="palm leaf" />
+    <node id="more hares" />
+    <node id="procession" />
+    <node id="bodhisatta" />
+    <edge source="lion" target="lion" id="0">
+      <data key="d0">roamed the forests</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="hare" target="beneath a palm sapling" id="0">
+      <data key="d0">made his home</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="hare" target="hare" id="0">
+      <data key="d0">leapt to his feet</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="hare" target="hare" id="1">
+      <data key="d0">fled in terror</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="vilva fruit" target="palm leaf" id="0">
+      <data key="d0">fell from above</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="more hares" target="more hares" id="0">
+      <data key="d0">joined the chase</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="procession" target="procession" id="0">
+      <data key="d0">stretched for leagues</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="0">
+      <data key="d0">beheld this spectacle</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="1">
+      <data key="d0">confronted the fleeing beasts</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="2">
+      <data key="d0">scolded the hare</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="3">
+      <data key="d0">realized the truth</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="4">
+      <data key="d0">reassured the herd</data>
+      <data key="d1">12</data>
+    </edge>
+  </graph>
+</graphml>

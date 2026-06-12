@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="farmer" />
+    <node id="father" />
+    <node id="stranger" />
+    <node id="wise woman" />
+    <node id="another woman" />
+    <node id="she" />
+    <node id="death" />
+    <node id="peasant" />
+    <edge source="farmer" target="farmer" id="0">
+      <data key="d0">had a child</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="farmer" target="farmer" id="1">
+      <data key="d0">continued his search</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="farmer" target="stranger" id="0">
+      <data key="d0">asked to be godfather</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="father" target="father" id="0">
+      <data key="d0">took the child in arms</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="stranger" target="farmer" id="0">
+      <data key="d0">was encountered by</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="wise woman" target="farmer" id="0">
+      <data key="d0">was met by</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="wise woman" target="wise woman" id="0">
+      <data key="d0">told the farmer</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="another woman" target="another woman" id="0">
+      <data key="d0">claimed to be just</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="she" target="she" id="0">
+      <data key="d0">showed what it means</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="death" target="death" id="0">
+      <data key="d0">led the peasant into a chamber</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="death" target="death" id="1">
+      <data key="d0">told the peasant to come with her</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="peasant" target="peasant" id="0">
+      <data key="d0">beheld his own light</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="peasant" target="peasant" id="1">
+      <data key="d0">asked death about oil</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="peasant" target="peasant" id="2">
+      <data key="d0">implored death for some of his son's oil</data>
+      <data key="d1">14</data>
+    </edge>
+  </graph>
+</graphml>

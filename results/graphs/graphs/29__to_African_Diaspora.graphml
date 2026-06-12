@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="hermit" />
+    <node id="three men" />
+    <node id="one of them" />
+    <node id="they" />
+    <node id="their friend" />
+    <node id="all of them" />
+    <node id="people in the village" />
+    <edge source="hermit" target="hermit" id="0">
+      <data key="d0">wandered through</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="hermit" target="hermit" id="1">
+      <data key="d0">entered a cave</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="hermit" target="hermit" id="2">
+      <data key="d0">fled the cave</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="hermit" target="hermit" id="3">
+      <data key="d0">led them back</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="hermit" target="hermit" id="4">
+      <data key="d0">had fled the cave</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="three men" target="three men" id="0">
+      <data key="d0">encountered the hermit</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="three men" target="three men" id="1">
+      <data key="d0">lay in wait</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="three men" target="three men" id="2">
+      <data key="d0">gazed upon the treasure</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="three men" target="three men" id="3">
+      <data key="d0">turned to enjoy wealth</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="one of them" target="one of them" id="0">
+      <data key="d0">planned to poison</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="they" target="their friend" id="0">
+      <data key="d0">struck down their friend</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="all of them" target="all of them" id="0">
+      <data key="d0">fell dead</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="people in the village" target="people in the village" id="0">
+      <data key="d0">whispered among themselves</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="farmer" />
+    <node id="lion" />
+    <node id="jackal" />
+    <edge source="farmer" target="farmer" id="0">
+      <data key="d0">was terrified</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="farmer" target="farmer" id="1">
+      <data key="d0">went home with an ox</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="farmer" target="farmer" id="2">
+      <data key="d0">plowed again</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="farmer" target="farmer" id="3">
+      <data key="d0">bought another ox</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="farmer" target="farmer" id="4">
+      <data key="d0">explained that the lion demanded an ox</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="farmer" target="farmer" id="5">
+      <data key="d0">promised a sheep if freed</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="farmer" target="farmer" id="6">
+      <data key="d0">killed the lion with a hatchet</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="farmer" target="lion" id="0">
+      <data key="d0">unhitched an oxen</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lion" target="lion" id="0">
+      <data key="d0">took the oxen</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="lion" target="farmer" id="0">
+      <data key="d0">demanded an ox</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="jackal" target="jackal" id="0">
+      <data key="d0">came by the farmer</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="jackal" target="jackal" id="1">
+      <data key="d0">planned to disguise his voice</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="jackal" target="farmer" id="0">
+      <data key="d0">asked why he had fewer oxen</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="jackal" target="farmer" id="1">
+      <data key="d0">offered to free him from the lion</data>
+      <data key="d1">11</data>
+    </edge>
+  </graph>
+</graphml>

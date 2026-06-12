@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="man" />
+    <node id="band of elves" />
+    <node id="elves and the man" />
+    <node id="elves" />
+    <node id="neighboring villager" />
+    <node id="envious neighbor" />
+    <node id="one of the elves" />
+    <node id="villager" />
+    <edge source="man" target="man" id="0">
+      <data key="d0">found himself forced to seek refuge</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="man" target="man" id="1">
+      <data key="d0">gave way to curiosity</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="man" target="man" id="2">
+      <data key="d0">crept from his hiding place</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="man" target="elves" id="0">
+      <data key="d0">proved himself to be the equal</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="band of elves" target="band of elves" id="0">
+      <data key="d0">gathered beneath the branches</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="elves and the man" target="elves and the man" id="0">
+      <data key="d0">danced beneath the starry sky</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="elves" target="man" id="0">
+      <data key="d0">presented him with a challenge</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="elves" target="man" id="1">
+      <data key="d0">declared him the winner of their games</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="neighboring villager" target="neighboring villager" id="0">
+      <data key="d0">sought to replicate his luck</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="envious neighbor" target="envious neighbor" id="0">
+      <data key="d0">convinced the elves to return his pledge</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="envious neighbor" target="envious neighbor" id="1">
+      <data key="d0">returned home in tears</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="one of the elves" target="villager" id="0">
+      <data key="d0">presented him with a wen</data>
+      <data key="d1">11</data>
+    </edge>
+  </graph>
+</graphml>

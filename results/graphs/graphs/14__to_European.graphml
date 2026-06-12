@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="brer wolf" />
+    <node id="brer rabbit" />
+    <node id="front door" />
+    <node id="silence from within the house" />
+    <node id="brer rabbit's laughter" />
+    <node id="commotion" />
+    <edge source="brer wolf" target="brer wolf" id="0">
+      <data key="d0">waited patiently within</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="brer wolf" target="brer wolf" id="1">
+      <data key="d0">replied in a gruff voice</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="brer rabbit" target="brer rabbit" id="0">
+      <data key="d0">ventured out to gather</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="brer rabbit" target="brer rabbit" id="1">
+      <data key="d0">returned home</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="brer rabbit" target="brer rabbit" id="2">
+      <data key="d0">approached the house with stealthy steps</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="brer rabbit" target="brer rabbit" id="3">
+      <data key="d0">peered through the crack beneath the door</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="brer rabbit" target="brer rabbit" id="4">
+      <data key="d0">hollered at the top of his lungs</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="brer rabbit" target="brer rabbit" id="5">
+      <data key="d0">realized the absurdity of the situation</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="brer rabbit" target="brer rabbit" id="6">
+      <data key="d0">leapt from the simmon stump and landed with a thud on the forest floor</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="front door" target="front door" id="0">
+      <data key="d0">creaked ominously on its hinges</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="silence from within the house" target="silence from within the house" id="0">
+      <data key="d0">fueled brer wolf's confusion and unease</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="brer rabbit's laughter" target="brer rabbit's laughter" id="0">
+      <data key="d0">sent brer wolf scurrying for cover</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="commotion" target="commotion" id="0">
+      <data key="d0">was too much for brer wolf</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

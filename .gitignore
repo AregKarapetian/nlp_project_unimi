@@ -1,0 +1,16 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+
+
+# Debug / intermediate artifacts from the event-extraction repair pipeline
+# (kept locally for reference, not needed to reproduce results)
+results/events/raw_failed/
+results/events/repaired/
+results/events/events.jsonl
+results/events/events_merged.jsonl
+results/events/1__orig.json
+results/events/1__to_African_Diaspora.json
+results/graphs/raw_failed/

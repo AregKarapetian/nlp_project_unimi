@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="sennuccio" />
+    <node id="bedovina" />
+    <node id="chonguita" />
+    <edge source="sennuccio" target="sennuccio" id="0">
+      <data key="d0">sat idly by</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sennuccio" target="sennuccio" id="1">
+      <data key="d0">bade his wife shut the door</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sennuccio" target="sennuccio" id="2">
+      <data key="d0">proposed a wager</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="sennuccio" target="sennuccio" id="3">
+      <data key="d0">sat on a bench</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="sennuccio" target="sennuccio" id="4">
+      <data key="d0">revealed the truth</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="sennuccio" target="chonguita" id="0">
+      <data key="d0">remained mute</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="bedovina" target="bedovina" id="0">
+      <data key="d0">agreed to this proposition</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="bedovina" target="bedovina" id="1">
+      <data key="d0">arose from bed</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="bedovina" target="bedovina" id="2">
+      <data key="d0">realized her loss</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="bedovina" target="bedovina" id="3">
+      <data key="d0">rose to shut the door</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="bedovina" target="sennuccio" id="0">
+      <data key="d0">scolded sennuccio</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="0">
+      <data key="d0">chanced upon sennuccio's house</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="1">
+      <data key="d0">sought refuge in the doorway</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="2">
+      <data key="d0">continued on his way</data>
+      <data key="d1">9</data>
+    </edge>
+  </graph>
+</graphml>

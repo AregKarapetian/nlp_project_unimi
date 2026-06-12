@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="man" />
+    <node id="hollow trunk of an ancient tree" />
+    <node id="tree" />
+    <node id="orishas" />
+    <node id="his friends and family" />
+    <node id="envious neighbor" />
+    <node id="one of the orishas" />
+    <node id="villagers" />
+    <edge source="man" target="hollow trunk of an ancient tree" id="0">
+      <data key="d0">sought refuge in</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="man" target="orishas" id="0">
+      <data key="d0">danced with</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="man" target="man" id="0">
+      <data key="d0">returned home with</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="man" target="his friends and family" id="0">
+      <data key="d0">shared his tale with</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="tree" target="tree" id="0">
+      <data key="d0">was home to</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="orishas" target="man" id="0">
+      <data key="d0">descended upon the tree and invited</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="orishas" target="man" id="1">
+      <data key="d0">took a token from his forehead</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="orishas" target="man" id="2">
+      <data key="d0">welcomed the neighbor with open arms thinking him to be their former companion</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="envious neighbor" target="envious neighbor" id="0">
+      <data key="d0">listened to the man's story with growing unease due to</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="envious neighbor" target="envious neighbor" id="1">
+      <data key="d0">set out to find the ancient tree</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="envious neighbor" target="envious neighbor" id="2">
+      <data key="d0">returned home in tears realizing that his covetous heart had led him astray</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="one of the orishas" target="man" id="0">
+      <data key="d0">pulled out the pawned wen and stuck it onto the man's forehead on top of his existing wen</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="villagers" target="villagers" id="0">
+      <data key="d0">gathered to hear the tale and nodded in agreement with their elder's wise words</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

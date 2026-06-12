@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="crocodile" />
+    <node id="embankment" />
+    <node id="mud" />
+    <node id="man" />
+    <node id="save me" />
+    <node id="his arm" />
+    <node id="you may eat me" />
+    <node id="kumbuk tree" />
+    <node id="not to let him go" />
+    <node id="cow" />
+    <node id="jackal" />
+    <edge source="crocodile" target="embankment" id="0">
+      <data key="d0">made a burrow in</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="crocodile" target="crocodile" id="0">
+      <data key="d0">was going to die</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="crocodile" target="save me" id="0">
+      <data key="d0">said to the man</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="crocodile" target="his arm" id="0">
+      <data key="d0">seized the man by the arm</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="mud" target="mud" id="0">
+      <data key="d0">became hard</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="man" target="man" id="0">
+      <data key="d0">passed by</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="man" target="man" id="1">
+      <data key="d0">broke up the earth</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="man" target="man" id="2">
+      <data key="d0">placed the crocodile on his shoulder</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="man" target="man" id="3">
+      <data key="d0">carried the crocodile home</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="man" target="you may eat me" id="0">
+      <data key="d0">said to the crocodile</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="man" target="kumbuk tree" id="0">
+      <data key="d0">asked for an opinion</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="man" target="cow" id="0">
+      <data key="d0">asked for an opinion</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="man" target="jackal" id="0">
+      <data key="d0">asked for an opinion</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="kumbuk tree" target="not to let him go" id="0">
+      <data key="d0">advised the crocodile</data>
+      <data key="d1">11</data>
+    </edge>
+  </graph>
+</graphml>

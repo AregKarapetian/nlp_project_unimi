@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="bodhisatta" />
+    <node id="young lion" />
+    <node id="humble hare" />
+    <node id="vilva tree" />
+    <node id="vilva fruit" />
+    <node id="palm leaf" />
+    <node id="first hare" />
+    <node id="second hare" />
+    <node id="great host of animals" />
+    <node id="deer" />
+    <node id="accused hare" />
+    <edge source="bodhisatta" target="bodhisatta" id="0">
+      <data key="d0">takes spirit form</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="1">
+      <data key="d0">springs forward</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="2">
+      <data key="d0">roars three times</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="3">
+      <data key="d0">asks why they fled</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="4">
+      <data key="d0">investigates the claim</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="bodhisatta" target="bodhisatta" id="5">
+      <data key="d0">reassures the animals</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="young lion" target="young lion" id="0">
+      <data key="d0">roams the forest</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="humble hare" target="vilva tree" id="0">
+      <data key="d0">lives beneath tree</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="vilva fruit" target="palm leaf" id="0">
+      <data key="d0">falls onto leaf</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="first hare" target="first hare" id="0">
+      <data key="d0">refuses to explain</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="second hare" target="second hare" id="0">
+      <data key="d0">presses for explanation</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="great host of animals" target="great host of animals" id="0">
+      <data key="d0">joins the chase</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="deer" target="deer" id="0">
+      <data key="d0">admits ignorance</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="accused hare" target="accused hare" id="0">
+      <data key="d0">explains misinterpretation</data>
+      <data key="d1">12</data>
+    </edge>
+  </graph>
+</graphml>

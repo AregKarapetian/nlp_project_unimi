@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="farmer" />
+    <node id="father" />
+    <node id="master lao" />
+    <node id="lady meng jiangnu" />
+    <node id="jiangshi" />
+    <node id="child" />
+    <edge source="farmer" target="farmer" id="0">
+      <data key="d0">had given birth to</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="farmer" target="farmer" id="1">
+      <data key="d0">sought a godparent</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="farmer" target="farmer" id="2">
+      <data key="d0">bowed his head</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="father" target="father" id="0">
+      <data key="d0">cradled the infant</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="father" target="master lao" id="0">
+      <data key="d0">encountered master lao</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="father" target="lady meng jiangnu" id="0">
+      <data key="d0">met lady meng jiangnu</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="father" target="jiangshi" id="0">
+      <data key="d0">encountered jiangshi</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="master lao" target="master lao" id="0">
+      <data key="d0">replied to the request</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="lady meng jiangnu" target="lady meng jiangnu" id="0">
+      <data key="d0">replied to the request</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="jiangshi" target="child" id="0">
+      <data key="d0">performed the sacred rites</data>
+      <data key="d1">10</data>
+    </edge>
+  </graph>
+</graphml>

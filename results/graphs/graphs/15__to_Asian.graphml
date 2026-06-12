@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="woodsman" />
+    <node id="serpent" />
+    <node id="snake and the woodsman" />
+    <node id="snake" />
+    <node id="nag" />
+    <node id="mulberry tree" />
+    <node id="ancient tree" />
+    <node id="cunning fox" />
+    <node id="bag of chickens" />
+    <edge source="woodsman" target="woodsman" id="0">
+      <data key="d0">was gathering firewood</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="woodsman" target="woodsman" id="1">
+      <data key="d0">replied to the serpent</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="woodsman" target="serpent" id="0">
+      <data key="d0">lifted the stone</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="woodsman" target="serpent" id="1">
+      <data key="d0">ordered the serpent</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="serpent" target="woodsman" id="0">
+      <data key="d0">hissed at the woodsman</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="snake and the woodsman" target="snake and the woodsman" id="0">
+      <data key="d0">searched for a wise one</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="snake and the woodsman" target="mulberry tree" id="0">
+      <data key="d0">came across a mulberry tree</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="snake and the woodsman" target="cunning fox" id="0">
+      <data key="d0">met a cunning fox</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="snake" target="nag" id="0">
+      <data key="d0">asked the nag</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="snake" target="ancient tree" id="0">
+      <data key="d0">asked the ancient tree</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="nag" target="nag" id="0">
+      <data key="d0">replied to the snake</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="ancient tree" target="ancient tree" id="0">
+      <data key="d0">replied to the snake</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="cunning fox" target="cunning fox" id="0">
+      <data key="d0">listened to the woodsman's plea</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="cunning fox" target="bag of chickens" id="0">
+      <data key="d0">requested a bag of chickens</data>
+      <data key="d1">14</data>
+    </edge>
+  </graph>
+</graphml>

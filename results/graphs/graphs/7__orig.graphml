@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="old man" />
+    <node id="demons" />
+    <node id="demon" />
+    <node id="chief of the demons" />
+    <node id="old man's wife" />
+    <node id="wicked old man" />
+    <edge source="old man" target="old man" id="0">
+      <data key="d0">overtaken by</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="old man" target="old man" id="1">
+      <data key="d0">sought shelter in</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="old man" target="old man" id="2">
+      <data key="d0">heard a sound of merriment</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="old man" target="old man" id="3">
+      <data key="d0">began to laugh at their strange dancing</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="old man" target="old man" id="4">
+      <data key="d0">offered to show his skill as a dancer</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="old man" target="old man" id="5">
+      <data key="d0">danced before the demons</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="demons" target="demons" id="0">
+      <data key="d0">dancing and singing and drinking</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="demon" target="demon" id="0">
+      <data key="d0">dancing by himself</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="chief of the demons" target="chief of the demons" id="0">
+      <data key="d0">asked if anyone could dance better</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="chief of the demons" target="chief of the demons" id="1">
+      <data key="d0">asked the old man to dance again</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="chief of the demons" target="chief of the demons" id="2">
+      <data key="d0">removed a wen from the old man's cheek</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="old man's wife" target="old man's wife" id="0">
+      <data key="d0">was pleased with his good fortune</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="wicked old man" target="wicked old man" id="0">
+      <data key="d0">heard about the old man's encounter with the demons</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="wicked old man" target="wicked old man" id="1">
+      <data key="d0">attempted to dance for the demons</data>
+      <data key="d1">14</data>
+    </edge>
+  </graph>
+</graphml>

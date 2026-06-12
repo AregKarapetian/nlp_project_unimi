@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="brothers" />
+    <node id="hare" />
+    <node id="their godmother" />
+    <node id="chonguita" />
+    <node id="one of the brothers" />
+    <node id="one stranger" />
+    <node id="dumb physician" />
+    <edge source="brothers" target="brothers" id="0">
+      <data key="d0">set out to go hunting for their family's dinner</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="brothers" target="brothers" id="1">
+      <data key="d0">picked up some nuts and returned</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="brothers" target="brothers" id="2">
+      <data key="d0">sought out three physicians who lived in the village</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="brothers" target="hare" id="0">
+      <data key="d0">stumbled upon a hare</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="brothers" target="their godmother" id="0">
+      <data key="d0">went to her doorstep for help</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="their godmother" target="their godmother" id="0">
+      <data key="d0">offered to lend them a pot</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="0">
+      <data key="d0">chose a broken pot with no bottom to cook the hare</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="1">
+      <data key="d0">went to shake a barren walnut tree</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="2">
+      <data key="d0">put up a notice on the street</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="3">
+      <data key="d0">visited the physicians</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="chonguita" target="chonguita" id="4">
+      <data key="d0">saved the day once again and was known throughout the village as a master of wit and cunning</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="one of the brothers" target="their godmother" id="0">
+      <data key="d0">suggested asking their godmother about her garden</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="one stranger" target="one stranger" id="0">
+      <data key="d0">drank too much and nearly died from overindulgence</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="dumb physician" target="dumb physician" id="0">
+      <data key="d0">scribbled a prescription that chonguita read aloud</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

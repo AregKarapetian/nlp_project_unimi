@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="couple" />
+    <node id="husband" />
+    <node id="to make fritters" />
+    <node id="wife" />
+    <node id="from his godmother" />
+    <node id="they" />
+    <node id="soldier" />
+    <node id="woman" />
+    <edge source="couple" target="couple" id="0">
+      <data key="d0">lived together</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="husband" target="to make fritters" id="0">
+      <data key="d0">asked his wife</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="husband" target="from his godmother" id="0">
+      <data key="d0">told her to borrow one</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="husband" target="husband" id="0">
+      <data key="d0">had to carry the pan back</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="husband" target="husband" id="1">
+      <data key="d0">suggested they both go to work</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="husband" target="husband" id="2">
+      <data key="d0">said 'leulerò' while drawing his thread</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="husband" target="husband" id="3">
+      <data key="d0">remained silent until the soldier threatened to cut off his head if he didn't comply</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="wife" target="wife" id="0">
+      <data key="d0">replied that they didn't have a frying pan</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="wife" target="wife" id="1">
+      <data key="d0">went to borrow the pan and returned with it</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="wife" target="wife" id="2">
+      <data key="d0">started spinning while the husband drew his thread as a shoemaker</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="wife" target="wife" id="3">
+      <data key="d0">responded with 'piciciì, picicì, piciciò' while spinning</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="they" target="they" id="0">
+      <data key="d0">cooked and ate fritters</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="soldier" target="soldier" id="0">
+      <data key="d0">passed by and asked a woman if there was a shoemaker in the street</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="woman" target="woman" id="0">
+      <data key="d0">took him to their house</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

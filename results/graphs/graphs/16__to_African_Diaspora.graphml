@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="kofi" />
+    <node id="crocodile" />
+    <node id="they" />
+    <node id="cow" />
+    <node id="jackal" />
+    <edge source="kofi" target="kofi" id="0">
+      <data key="d0">was on his way</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kofi" target="kofi" id="1">
+      <data key="d0">heard a faint cry</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="kofi" target="kofi" id="2">
+      <data key="d0">broke up the earth</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="kofi" target="kofi" id="3">
+      <data key="d0">realized the tank was dry</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="kofi" target="kofi" id="4">
+      <data key="d0">walked for hours with crocodile</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="kofi" target="kofi" id="5">
+      <data key="d0">asked the witnesses for opinion</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="kofi" target="kofi" id="6">
+      <data key="d0">returned home to his wife</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="kofi" target="crocodile" id="0">
+      <data key="d0">killed the crocodile</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="crocodile" target="kofi" id="0">
+      <data key="d0">seized kofi by the arm</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="crocodile" target="kofi" id="1">
+      <data key="d0">wanted to eat him</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="they" target="they" id="0">
+      <data key="d0">visited a kumbuk tree</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="they" target="they" id="1">
+      <data key="d0">came to a wise old jackal</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="cow" target="cow" id="0">
+      <data key="d0">agreed with the tree's assessment</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="jackal" target="crocodile" id="0">
+      <data key="d0">advised kofi to beat crocodile</data>
+      <data key="d1">12</data>
+    </edge>
+  </graph>
+</graphml>

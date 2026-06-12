@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="herdsman" />
+    <node id="his flock" />
+    <node id="she-dog" />
+    <node id="maiden" />
+    <node id="pools of water" />
+    <node id="village" />
+    <node id="his family and friends" />
+    <node id="old man" />
+    <node id="her" />
+    <node id="dog skin" />
+    <node id="people" />
+    <node id="jitu" />
+    <node id="jitu's party" />
+    <node id="his bride" />
+    <edge source="herdsman" target="his flock" id="0">
+      <data key="d0">tended to</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="herdsman" target="village" id="0">
+      <data key="d0">followed into</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="herdsman" target="maiden" id="0">
+      <data key="d0">wanted to wed</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="herdsman" target="maiden" id="1">
+      <data key="d0">chose as his bride</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="herdsman" target="dog skin" id="0">
+      <data key="d0">snatched from her grasp and burned in the fire</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="she-dog" target="she-dog" id="0">
+      <data key="d0">transformed into</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="maiden" target="pools of water" id="0">
+      <data key="d0">bathed in</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="maiden" target="maiden" id="0">
+      <data key="d0">slipped out of the dog skin and roamed free</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="his family and friends" target="his family and friends" id="0">
+      <data key="d0">laughed at him</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="old man" target="her" id="0">
+      <data key="d0">accepted a bride price for</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="people" target="people" id="0">
+      <data key="d0">came to congratulate him on his wisdom</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="jitu" target="jitu" id="0">
+      <data key="d0">tried to woo a she-dog for himself</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="jitu" target="jitu" id="1">
+      <data key="d0">took his own life in a fit of despair</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="jitu's party" target="his bride" id="0">
+      <data key="d0">forcibly applied oil and turmeric to</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

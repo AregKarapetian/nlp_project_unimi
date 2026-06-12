@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="hlakanyana" />
+    <node id="boy" />
+    <node id="they" />
+    <node id="cunning fellow" />
+    <edge source="hlakanyana" target="boy" id="0">
+      <data key="d0">met a boy</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="hlakanyana" target="hlakanyana" id="0">
+      <data key="d0">proposed that they should pursue after birds</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="hlakanyana" target="hlakanyana" id="1">
+      <data key="d0">said it is time to roast our birds</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="hlakanyana" target="hlakanyana" id="2">
+      <data key="d0">said we must go under the water and see who will come out last</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="hlakanyana" target="hlakanyana" id="3">
+      <data key="d0">came out quickly and ate all the birds</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="hlakanyana" target="hlakanyana" id="4">
+      <data key="d0">went under the water again</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="boy" target="boy" id="0">
+      <data key="d0">had a digging-stick</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="they" target="they" id="0">
+      <data key="d0">pursued birds</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="they" target="they" id="1">
+      <data key="d0">went under the water</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="cunning fellow" target="cunning fellow" id="0">
+      <data key="d0">said let us try again</data>
+      <data key="d1">8</data>
+    </edge>
+  </graph>
+</graphml>

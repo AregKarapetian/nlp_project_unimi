@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="sultan" />
+    <node id="priest" />
+    <node id="girl" />
+    <node id="some slaves" />
+    <node id="caravan" />
+    <node id="party" />
+    <node id="sultan's son" />
+    <edge source="sultan" target="sultan" id="0">
+      <data key="d0">had a daughter</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sultan" target="sultan" id="1">
+      <data key="d0">went on a pilgrimage</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sultan" target="sultan" id="2">
+      <data key="d0">handed her over</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="priest" target="priest" id="0">
+      <data key="d0">entrusted the girl</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="priest" target="sultan" id="0">
+      <data key="d0">sent a letter</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="girl" target="girl" id="0">
+      <data key="d0">said to come tomorrow</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="girl" target="girl" id="1">
+      <data key="d0">removed the ladder</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="girl" target="girl" id="2">
+      <data key="d0">crawled away</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="girl" target="girl" id="3">
+      <data key="d0">bore two children</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="some slaves" target="girl" id="0">
+      <data key="d0">cut off her legs</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="caravan" target="caravan" id="0">
+      <data key="d0">passed by the place</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="party" target="girl" id="0">
+      <data key="d0">saw her sitting</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="sultan's son" target="girl" id="0">
+      <data key="d0">said to marry her</data>
+      <data key="d1">12</data>
+    </edge>
+  </graph>
+</graphml>

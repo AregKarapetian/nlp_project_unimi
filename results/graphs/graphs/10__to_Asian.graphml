@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="two sisters" />
+    <node id="virtuous sister" />
+    <node id="wise old sage" />
+    <node id="devil" />
+    <node id="goddess of mercy" />
+    <node id="young son" />
+    <node id="brilliant star" />
+    <node id="wicked sister" />
+    <node id="virtuous sister's mother" />
+    <edge source="two sisters" target="two sisters" id="0">
+      <data key="d0">lived in village</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="virtuous sister" target="virtuous sister" id="0">
+      <data key="d0">said she would go</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="virtuous sister" target="virtuous sister" id="1">
+      <data key="d0">went to draw water</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="virtuous sister" target="virtuous sister" id="2">
+      <data key="d0">climbed down well</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="virtuous sister" target="virtuous sister" id="3">
+      <data key="d0">found passage leading</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="virtuous sister" target="virtuous sister" id="4">
+      <data key="d0">knocked on first door</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="virtuous sister" target="virtuous sister" id="5">
+      <data key="d0">knocked on second door</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="virtuous sister" target="virtuous sister" id="6">
+      <data key="d0">swept the house</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="virtuous sister" target="virtuous sister" id="7">
+      <data key="d0">kept treasures for herself</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="wise old sage" target="wise old sage" id="0">
+      <data key="d0">replied he hadn't seen</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="devil" target="devil" id="0">
+      <data key="d0">answered this time</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="goddess of mercy" target="young son" id="0">
+      <data key="d0">told her to give soup</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="goddess of mercy" target="virtuous sister" id="0">
+      <data key="d0">gave her silk dress and thimble</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="goddess of mercy" target="virtuous sister" id="1">
+      <data key="d0">gave her bucket and cord</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="goddess of mercy" target="wicked sister" id="0">
+      <data key="d0">gave her wrong dress and thimble</data>
+      <data key="d1">19</data>
+    </edge>
+    <edge source="brilliant star" target="virtuous sister" id="0">
+      <data key="d0">fell upon her forehead</data>
+      <data key="d1">15</data>
+    </edge>
+    <edge source="wicked sister" target="wicked sister" id="0">
+      <data key="d0">watched from afar</data>
+      <data key="d1">16</data>
+    </edge>
+    <edge source="wicked sister" target="wicked sister" id="1">
+      <data key="d0">climbed down well</data>
+      <data key="d1">17</data>
+    </edge>
+    <edge source="wicked sister" target="young son" id="0">
+      <data key="d0">ate broth meant for son</data>
+      <data key="d1">18</data>
+    </edge>
+    <edge source="virtuous sister's mother" target="virtuous sister's mother" id="0">
+      <data key="d0">saw contrast between daughters</data>
+      <data key="d1">20</data>
+    </edge>
+  </graph>
+</graphml>

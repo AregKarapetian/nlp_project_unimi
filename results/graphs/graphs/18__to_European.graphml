@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="giovanni" />
+    <node id="lion" />
+    <node id="lupino" />
+    <node id="giovanni's wife" />
+    <node id="dog" />
+    <edge source="giovanni" target="giovanni" id="0">
+      <data key="d0">lived in a village</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="giovanni" target="giovanni" id="1">
+      <data key="d0">sacrificed an ox</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="giovanni" target="giovanni" id="2">
+      <data key="d0">purchased another ox</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="giovanni" target="giovanni" id="3">
+      <data key="d0">struck the lion's skull</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="giovanni" target="giovanni" id="4">
+      <data key="d0">decided to eat the ram</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="giovanni" target="lupino" id="0">
+      <data key="d0">explained the lion's demands to lupino</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="lion" target="lion" id="0">
+      <data key="d0">demanded oxen from giovanni</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lupino" target="lupino" id="0">
+      <data key="d0">approached giovanni</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="lupino" target="lupino" id="1">
+      <data key="d0">claimed a fine ram</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="giovanni's wife" target="giovanni's wife" id="0">
+      <data key="d0">packed a ram into a sack</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="dog" target="lupino" id="0">
+      <data key="d0">chased lupino away</data>
+      <data key="d1">10</data>
+    </edge>
+  </graph>
+</graphml>

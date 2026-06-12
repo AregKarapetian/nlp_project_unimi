@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="parents" />
+    <node id="prince" />
+    <node id="woman" />
+    <node id="second woman" />
+    <edge source="parents" target="parents" id="0">
+      <data key="d0">wanted him to marry</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="parents" target="parents" id="1">
+      <data key="d0">told him to find her</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="prince" target="prince" id="0">
+      <data key="d0">said he would marry</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="prince" target="prince" id="1">
+      <data key="d0">went forth and came</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="prince" target="prince" id="2">
+      <data key="d0">asked what was wrong</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="prince" target="prince" id="3">
+      <data key="d0">thought she wasn't right</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="prince" target="prince" id="4">
+      <data key="d0">went on his way</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="prince" target="prince" id="5">
+      <data key="d0">found another woman</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="prince" target="prince" id="6">
+      <data key="d0">thought she wasn't right either</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="prince" target="prince" id="7">
+      <data key="d0">continued on his way</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="prince" target="prince" id="8">
+      <data key="d0">came to a third woman</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="prince" target="prince" id="9">
+      <data key="d0">said she was right</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="woman" target="woman" id="0">
+      <data key="d0">said she had a problem</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="second woman" target="second woman" id="0">
+      <data key="d0">said she was sick</data>
+      <data key="d1">10</data>
+    </edge>
+  </graph>
+</graphml>

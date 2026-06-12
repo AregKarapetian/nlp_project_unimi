@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="farmer's wife" />
+    <node id="crow" />
+    <node id="grain of corn" />
+    <node id="woodman" />
+    <node id="king" />
+    <node id="queen" />
+    <edge source="farmer's wife" target="farmer's wife" id="0">
+      <data key="d0">was winnowing corn</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="farmer's wife" target="crow" id="0">
+      <data key="d0">flung a clod at the bird</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="farmer's wife" target="crow" id="1">
+      <data key="d0">ran up to the crow and seized it by the tail</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="crow" target="crow" id="0">
+      <data key="d0">swooped off with a grain</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="crow" target="crow" id="1">
+      <data key="d0">promised to return the grain of corn</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="crow" target="crow" id="2">
+      <data key="d0">could not reach the grain in the crack</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="crow" target="crow" id="3">
+      <data key="d0">flew off to a woodman and asked him to cut down the tree</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="crow" target="crow" id="4">
+      <data key="d0">flew on to the king's palace and asked for his help</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="crow" target="crow" id="5">
+      <data key="d0">flew on to the queen and asked her to coax the king into helping him</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="crow" target="crow" id="6">
+      <data key="d0">continued his journey until he met a cat who was eager to catch a mouse</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="grain of corn" target="grain of corn" id="0">
+      <data key="d0">rolled into a crack in the tree</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="woodman" target="woodman" id="0">
+      <data key="d0">refused to cut down the tree</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="king" target="king" id="0">
+      <data key="d0">refused to kill the man who was responsible for cutting down the tree</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="queen" target="queen" id="0">
+      <data key="d0">refused to coax the king</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

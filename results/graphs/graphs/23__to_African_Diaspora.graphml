@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="sennuccio" />
+    <node id="bedovina" />
+    <node id="young servant boy" />
+    <node id="flame" />
+    <node id="door" />
+    <node id="house" />
+    <edge source="sennuccio" target="sennuccio" id="0">
+      <data key="d0">sat on porch</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sennuccio" target="sennuccio" id="1">
+      <data key="d0">remained silent</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="sennuccio" target="bedovina" id="0">
+      <data key="d0">made bargain with bedovina</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="bedovina" target="bedovina" id="0">
+      <data key="d0">sipped sweet tea</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="bedovina" target="bedovina" id="1">
+      <data key="d0">agreed to bargain</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="bedovina" target="bedovina" id="2">
+      <data key="d0">refused to stir</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="bedovina" target="bedovina" id="3">
+      <data key="d0">got out of bed</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="bedovina" target="sennuccio" id="0">
+      <data key="d0">chastised sennuccio</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="young servant boy" target="young servant boy" id="0">
+      <data key="d0">passed by porch</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="young servant boy" target="young servant boy" id="1">
+      <data key="d0">accomplished task</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="young servant boy" target="door" id="0">
+      <data key="d0">knocked on door</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="young servant boy" target="house" id="0">
+      <data key="d0">entered house</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="young servant boy" target="bedovina" id="0">
+      <data key="d0">found bedovina asleep</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="flame" target="flame" id="0">
+      <data key="d0">went out</data>
+      <data key="d1">6</data>
+    </edge>
+  </graph>
+</graphml>

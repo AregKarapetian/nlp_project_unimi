@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="lion" />
+    <node id="kaito" />
+    <node id="akira" />
+    <node id="asko" />
+    <node id="kaito's hatchet" />
+    <node id="kaito's wife" />
+    <node id="dog" />
+    <node id="kaito and family" />
+    <edge source="lion" target="lion" id="0">
+      <data key="d0">arrived at village</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lion" target="lion" id="1">
+      <data key="d0">appeared at dusk</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="lion" target="lion" id="2">
+      <data key="d0">replied with fear</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="kaito" target="kaito" id="0">
+      <data key="d0">gave in to demands</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="kaito" target="kaito" id="1">
+      <data key="d0">confided in akira</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="kaito" target="asko" id="0">
+      <data key="d0">struck the asko</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="akira" target="akira" id="0">
+      <data key="d0">encountered kaito</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="akira" target="akira" id="1">
+      <data key="d0">devised a plan</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="akira" target="akira" id="2">
+      <data key="d0">called out to lion</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="akira" target="akira" id="3">
+      <data key="d0">claimed his reward</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="kaito's hatchet" target="kaito's hatchet" id="0">
+      <data key="d0">split lion's skull</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="kaito's wife" target="kaito's wife" id="0">
+      <data key="d0">suggested keeping ram</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="dog" target="dog" id="0">
+      <data key="d0">chased akira away</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="kaito and family" target="kaito and family" id="0">
+      <data key="d0">enjoyed the ram</data>
+      <data key="d1">14</data>
+    </edge>
+  </graph>
+</graphml>

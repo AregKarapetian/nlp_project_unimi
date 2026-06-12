@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="lion" />
+    <node id="horse" />
+    <node id="lion and the horse" />
+    <node id="fox" />
+    <edge source="lion" target="lion" id="0">
+      <data key="d0">lived in</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lion" target="lion" id="1">
+      <data key="d0">devised a plan to escape</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lion" target="lion" id="2">
+      <data key="d0">was trapped</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="lion" target="lion" id="3">
+      <data key="d0">promised to spare the horse's life</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="lion" target="lion" id="4">
+      <data key="d0">forgot his promise and threatened to eat the horse</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="lion" target="lion" id="5">
+      <data key="d0">pushed and got stuck again</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="lion" target="fox" id="0">
+      <data key="d0">presented a question to the fox</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="horse" target="horse" id="0">
+      <data key="d0">overheard the lion's plea for help</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="horse" target="horse" id="1">
+      <data key="d0">said he would help</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="horse" target="horse" id="2">
+      <data key="d0">freed the lion</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="horse" target="horse" id="3">
+      <data key="d0">asked about the conditions of their agreement</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="horse" target="horse" id="4">
+      <data key="d0">threw stones at the lion until he was dead</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="lion and the horse" target="lion and the horse" id="0">
+      <data key="d0">went to see the fox</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="fox" target="fox" id="0">
+      <data key="d0">told the lion to force himself back into the cleft</data>
+      <data key="d1">12</data>
+    </edge>
+  </graph>
+</graphml>

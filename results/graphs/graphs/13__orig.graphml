@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="katie" />
+    <node id="old woman" />
+    <node id="katie's mother's house" />
+    <node id="elf" />
+    <edge source="katie" target="katie" id="0">
+      <data key="d0">was passin by</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="katie" target="katie" id="1">
+      <data key="d0">saw a room</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="katie" target="katie" id="2">
+      <data key="d0">remembered an errand</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="katie" target="katie" id="3">
+      <data key="d0">agreed to stay</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="katie" target="katie" id="4">
+      <data key="d0">jumped out of the window</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="katie" target="katie" id="5">
+      <data key="d0">dropped a comb</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="old woman" target="old woman" id="0">
+      <data key="d0">opened the door</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="old woman" target="old woman" id="1">
+      <data key="d0">told katie to stay</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="old woman" target="katie" id="0">
+      <data key="d0">offered apples</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="old woman" target="katie" id="1">
+      <data key="d0">offered anything she wanted</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="old woman" target="katie's mother's house" id="0">
+      <data key="d0">used a wand</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="elf" target="elf" id="0">
+      <data key="d0">warned katie</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="elf" target="katie" id="0">
+      <data key="d0">left the same dream</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="elf" target="katie" id="1">
+      <data key="d0">left a comb and handkerchief</data>
+      <data key="d1">12</data>
+    </edge>
+  </graph>
+</graphml>

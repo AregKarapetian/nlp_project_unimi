@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="elderly man" />
+    <node id="hollow tree" />
+    <node id="group of demons" />
+    <node id="leader of the demons" />
+    <node id="one clumsy demon" />
+    <node id="demons" />
+    <node id="news" />
+    <node id="wicked old man" />
+    <node id="he" />
+    <node id="him" />
+    <edge source="elderly man" target="elderly man" id="0">
+      <data key="d0">returned home</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="elderly man" target="elderly man" id="1">
+      <data key="d0">offered to show off his dancing skills</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="elderly man" target="hollow tree" id="0">
+      <data key="d0">sought refuge</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="elderly man" target="demons" id="0">
+      <data key="d0">began to dance</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="elderly man" target="demons" id="1">
+      <data key="d0">danced with abandon</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="group of demons" target="group of demons" id="0">
+      <data key="d0">were dancing and singing</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="leader of the demons" target="one clumsy demon" id="0">
+      <data key="d0">asked if anyone could dance better</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="leader of the demons" target="leader of the demons" id="0">
+      <data key="d0">offered him a cup of sak and asked him to dance again</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="leader of the demons" target="elderly man" id="0">
+      <data key="d0">asked for a token of his visit and removed a wen from his cheek</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="demons" target="him" id="0">
+      <data key="d0">flung a wen back onto his cheek as punishment</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="news" target="news" id="0">
+      <data key="d0">spread through the village</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="wicked old man" target="wicked old man" id="0">
+      <data key="d0">begged his neighbor to tell him more about the hollow tree and the demons</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="he" target="he" id="0">
+      <data key="d0">decided to try his luck with the demons</data>
+      <data key="d1">12</data>
+    </edge>
+  </graph>
+</graphml>

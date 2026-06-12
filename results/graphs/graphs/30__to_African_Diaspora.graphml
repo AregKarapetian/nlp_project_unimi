@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="tailor" />
+    <node id="kofi" />
+    <node id="ama" />
+    <node id="kitchen" />
+    <node id="villagers" />
+    <edge source="tailor" target="tailor" id="0">
+      <data key="d0">lived in a hut</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kofi" target="kofi" id="0">
+      <data key="d0">was known for his skillful hands</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="kofi" target="kofi" id="1">
+      <data key="d0">returned from a market trip</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="kofi" target="ama" id="0">
+      <data key="d0">asked ama questions</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="kofi" target="ama" id="1">
+      <data key="d0">tied a rope around ama</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="kofi" target="ama" id="2">
+      <data key="d0">released the rope</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="kofi" target="ama" id="3">
+      <data key="d0">let ama be for now</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="ama" target="ama" id="0">
+      <data key="d0">was no less talented</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="ama" target="ama" id="1">
+      <data key="d0">replied to kofi's question</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="ama" target="ama" id="2">
+      <data key="d0">refused to back down</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="ama" target="kofi" id="0">
+      <data key="d0">looked up at kofi</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="kitchen" target="kitchen" id="0">
+      <data key="d0">lay in disarray</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="villagers" target="villagers" id="0">
+      <data key="d0">whispered among themselves</data>
+      <data key="d1">11</data>
+    </edge>
+  </graph>
+</graphml>

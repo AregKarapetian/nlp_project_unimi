@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="prince" />
+    <node id="his parents" />
+    <node id="young woman" />
+    <node id="woman" />
+    <node id="his new bride" />
+    <node id="prince and his new bride" />
+    <edge source="prince" target="prince" id="0">
+      <data key="d0">sought a bride</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="prince" target="prince" id="1">
+      <data key="d0">set out on his quest</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="prince" target="prince" id="2">
+      <data key="d0">met a young woman</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="prince" target="prince" id="3">
+      <data key="d0">thought to himself this is not the one i seek</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="prince" target="prince" id="4">
+      <data key="d0">met a woman whose entire body was wrapped in fine silk</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="prince" target="prince" id="5">
+      <data key="d0">thought to himself this is not the one i seek</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="prince" target="prince" id="6">
+      <data key="d0">met a woman sitting in an intricately carved chair with her foot bound with bandages</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="prince" target="prince" id="7">
+      <data key="d0">was taken aback by her sensitivity and thought to himself this is indeed the one i have been searching for</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="prince" target="his new bride" id="0">
+      <data key="d0">proposed marriage on the spot</data>
+      <data key="d1">13</data>
+    </edge>
+    <edge source="his parents" target="his parents" id="0">
+      <data key="d0">urged him to find</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="young woman" target="young woman" id="0">
+      <data key="d0">explained that her maid had accidentally pulled out one of her hairpins while combing her hair</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="woman" target="woman" id="0">
+      <data key="d0">explained that a tiny wrinkle in her bedding had kept her awake all night</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="woman" target="woman" id="1">
+      <data key="d0">recounted how a gentle breeze had blown a jasmine petal onto her skin while strolling in the garden</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="prince and his new bride" target="prince and his new bride" id="0">
+      <data key="d0">returned to the kingdom where they were welcomed with great fanfare</data>
+      <data key="d1">14</data>
+    </edge>
+  </graph>
+</graphml>

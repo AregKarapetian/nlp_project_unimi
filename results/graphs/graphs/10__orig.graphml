@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="she" />
+    <node id="bad one" />
+    <node id="good daughter" />
+    <node id="saint" />
+    <node id="her" />
+    <node id="good girl" />
+    <node id="madonna" />
+    <edge source="she" target="bad one" id="0">
+      <data key="d0">said to go draw water</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="she" target="she" id="0">
+      <data key="d0">went to draw the water</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="she" target="she" id="1">
+      <data key="d0">said who knows what mother will do</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="she" target="she" id="2">
+      <data key="d0">climbed down the well</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="she" target="she" id="3">
+      <data key="d0">knocked at the door</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="bad one" target="bad one" id="0">
+      <data key="d0">did not want to go</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="good daughter" target="good daughter" id="0">
+      <data key="d0">said she will go draw it</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="saint" target="her" id="0">
+      <data key="d0">answered no my child</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="good girl" target="good girl" id="0">
+      <data key="d0">put the house in order</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="madonna" target="madonna" id="0">
+      <data key="d0">asked have you done all i told you to do</data>
+      <data key="d1">10</data>
+    </edge>
+  </graph>
+</graphml>

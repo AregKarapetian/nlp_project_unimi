@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="elderly couple" />
+    <node id="wind" />
+    <node id="husband" />
+    <node id="wife" />
+    <node id="man" />
+    <node id="his wife" />
+    <node id="him" />
+    <node id="fierce hound" />
+    <node id="neither of them" />
+    <node id="dog" />
+    <node id="barber" />
+    <edge source="elderly couple" target="elderly couple" id="0">
+      <data key="d0">sat by the fire</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="wind" target="wind" id="0">
+      <data key="d0">blew open the door</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="husband" target="wife" id="0">
+      <data key="d0">said to his wife</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="wife" target="husband" id="0">
+      <data key="d0">retorted to her husband</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="wife" target="wife" id="0">
+      <data key="d0">was away at the mill</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="wife" target="wife" id="1">
+      <data key="d0">saw his appearance</data>
+      <data key="d1">14</data>
+    </edge>
+    <edge source="man" target="man" id="0">
+      <data key="d0">proposed a silence</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="his wife" target="him" id="0">
+      <data key="d0">agreed with him</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="fierce hound" target="fierce hound" id="0">
+      <data key="d0">burst into the cottage</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="neither of them" target="neither of them" id="0">
+      <data key="d0">dared utter a sound</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="dog" target="dog" id="0">
+      <data key="d0">departed from the cottage</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="barber" target="barber" id="0">
+      <data key="d0">exclaimed in surprise</data>
+      <data key="d1">11</data>
+    </edge>
+    <edge source="barber" target="husband" id="0">
+      <data key="d0">shaved the husband's head</data>
+      <data key="d1">12</data>
+    </edge>
+    <edge source="barber" target="him" id="0">
+      <data key="d0">daubed him with lampblack</data>
+      <data key="d1">13</data>
+    </edge>
+  </graph>
+</graphml>

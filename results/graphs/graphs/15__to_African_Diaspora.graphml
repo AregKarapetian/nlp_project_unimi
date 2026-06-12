@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="order" attr.type="long" />
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="man" />
+    <node id="serpent" />
+    <node id="gaunt horse" />
+    <node id="mulberry tree" />
+    <node id="cunning fox" />
+    <node id="fox" />
+    <node id="villagers" />
+    <edge source="man" target="man" id="0">
+      <data key="d0">ventured into the forest</data>
+      <data key="d1">1</data>
+    </edge>
+    <edge source="man" target="man" id="1">
+      <data key="d0">suggested seeking counsel</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="man" target="serpent" id="0">
+      <data key="d0">lifted a stone</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="man" target="serpent" id="1">
+      <data key="d0">refused to let it go free</data>
+      <data key="d1">8</data>
+    </edge>
+    <edge source="man" target="cunning fox" id="0">
+      <data key="d0">took a fox aside</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="man" target="cunning fox" id="1">
+      <data key="d0">tricked the fox</data>
+      <data key="d1">10</data>
+    </edge>
+    <edge source="serpent" target="man" id="0">
+      <data key="d0">gazed at the man</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="gaunt horse" target="serpent" id="0">
+      <data key="d0">advised devouring the man</data>
+      <data key="d1">5</data>
+    </edge>
+    <edge source="mulberry tree" target="mulberry tree" id="0">
+      <data key="d0">agreed to devour the man</data>
+      <data key="d1">6</data>
+    </edge>
+    <edge source="fox" target="man" id="0">
+      <data key="d0">requested a bag of hens</data>
+      <data key="d1">9</data>
+    </edge>
+    <edge source="villagers" target="villagers" id="0">
+      <data key="d0">say this tale serves as a reminder</data>
+      <data key="d1">11</data>
+    </edge>
+  </graph>
+</graphml>
