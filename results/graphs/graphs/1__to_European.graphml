@@ -1,54 +1,67 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="king alfonso" />
-    <node id="king" />
-    <node id="king's sons" />
-    <node id="don juan" />
-    <node id="archbishop of the monkeys" />
-    <node id="chonguita" />
-    <node id="chonguita's mother" />
-    <edge source="king alfonso" target="king alfonso" id="0">
-      <data key="d0">ruled the kingdom</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="king" target="king" id="0">
-      <data key="d0">had three sons</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="king" target="king" id="1">
-      <data key="d0">summoned his sons</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="king" target="king" id="2">
-      <data key="d0">fainted from shock upon learning of his youngest son's union with a monkey</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="king's sons" target="king's sons" id="0">
-      <data key="d0">agreed on a meeting place</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="don juan" target="don juan" id="0">
-      <data key="d0">met an old man</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="don juan" target="don juan" id="1">
-      <data key="d0">entered the palace</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="don juan" target="chonguita" id="0">
-      <data key="d0">requested permission from his wife</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="archbishop of the monkeys" target="archbishop of the monkeys" id="0">
-      <data key="d0">united don juan and chonguita in matrimony</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="chonguita's mother" target="chonguita's mother" id="0">
-      <data key="d0">insisted that her daughter accompany don juan</data>
-      <data key="d1">9</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="king"/>
+<node id="don juan"/>
+<node id="old man"/>
+<node id="mighty monkey"/>
+<node id="monkey"/>
+<node id="chonguita's mother"/>
+<node id="chonguita"/>
+<edge source="king" target="king" id="0">
+  <data key="d0">decreed that his sons should set forth into the world to seek their fortunes</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="king" target="king" id="1">
+  <data key="d0">fainted from shock upon learning that one of his sons had married a monkey, but later decreed that their wives should create embroidered coats for him within three days' time</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="king" target="king" id="2">
+  <data key="d0">commanded his daughters-in-law to create caps for him within two days' time, under penalty of death if they failed</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="king" target="king" id="3">
+  <data key="d0">devised a plan to rid himself of chonguita by commanding his daughters-in-law to create the most wondrous picture on the walls of his chamber within three days' time</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="don juan" target="don juan" id="0">
+  <data key="d0">chanced upon an old man on the road who offered him a loaf of bread and bade him proceed to a palace</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="don juan" target="don juan" id="1">
+  <data key="d0">requested permission from his new bride to depart for the forest meeting place where he had agreed to meet his brothers</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="don juan" target="don juan" id="2">
+  <data key="d0">was accompanied by a monkey wife at the meeting place</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="old man" target="old man" id="0">
+  <data key="d0">instructed don juan to divide the bread among the monkeys who guarded the entrance to the palace</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="mighty monkey" target="mighty monkey" id="0">
+  <data key="d0">spoke in a voice that rumbled like thunder and met don juan</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="monkey" target="monkey" id="0">
+  <data key="d0">declared don juan's intention of marrying his daughter chonguita, and they were wedded forthwith</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="chonguita's mother" target="chonguita's mother" id="0">
+  <data key="d0">said that if don juan was departing, chonguita should come with him</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="chonguita" target="chonguita" id="0">
+  <data key="d0">proved to be a skilled needlewoman and created the most exquisite coat</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="chonguita" target="chonguita" id="1">
+  <data key="d0">once more surpassed her sisters-in-law in skill and beauty with the cap she created</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="chonguita" target="chonguita" id="2">
+  <data key="d0">created a masterpiece that was the most resplendent of all and don juan was crowned king in a grand ceremony</data>
+  <data key="d1">14</data>
+</edge>
+</graph></graphml>

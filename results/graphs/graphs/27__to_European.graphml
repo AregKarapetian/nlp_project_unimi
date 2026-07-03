@@ -1,63 +1,65 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="chonguita" />
-    <node id="br'er wolf" />
-    <node id="one of chonguita's young'uns" />
-    <node id="little rabbits" />
-    <edge source="chonguita" target="chonguita" id="0">
-      <data key="d0">lived with family</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="1">
-      <data key="d0">built a straw hut</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="2">
-      <data key="d0">constructed another dwelling</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="3">
-      <data key="d0">enlisted the aid of carpenters</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="4">
-      <data key="d0">directed br'er wolf to jump into a chest</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="5">
-      <data key="d0">bored holes in the chest lid</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="6">
-      <data key="d0">summoned his neighbors to celebrate br'er wolf's demise</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="br'er wolf" target="one of chonguita's young'uns" id="0">
-      <data key="d0">was on the prowl to pilfer</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="br'er wolf" target="br'er wolf" id="0">
-      <data key="d0">tore down the straw hut</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="br'er wolf" target="br'er wolf" id="1">
-      <data key="d0">claimed another young rabbit</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="br'er wolf" target="br'er wolf" id="2">
-      <data key="d0">let out a final pitiful cry</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="br'er wolf" target="chonguita" id="0">
-      <data key="d0">burst into the house begging for mercy</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="little rabbits" target="little rabbits" id="0">
-      <data key="d0">could live in peace</data>
-      <data key="d1">8</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="herr wolf"/>
+<node id="herr hase"/>
+<node id="rabbit's straw hut"/>
+<node id="rabbit's new home"/>
+<node id="chest lid"/>
+<edge source="herr wolf" target="herr hase" id="0">
+  <data key="d0">raids home</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="herr wolf" target="herr hase" id="1">
+  <data key="d0">observes stronghold</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="herr wolf" target="herr wolf" id="0">
+  <data key="d0">kills young one</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="herr wolf" target="rabbit's straw hut" id="0">
+  <data key="d0">destroys hut</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="herr wolf" target="rabbit's new home" id="0">
+  <data key="d0">enters house</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="herr hase" target="herr hase" id="0">
+  <data key="d0">storms off</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="herr hase" target="herr hase" id="1">
+  <data key="d0">builds new house</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="herr hase" target="herr hase" id="2">
+  <data key="d0">winks at self</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="herr hase" target="herr hase" id="3">
+  <data key="d0">celebrates victory</data>
+  <data key="d1">14</data>
+</edge>
+<edge source="herr hase" target="herr wolf" id="0">
+  <data key="d0">directs wolf</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="herr hase" target="herr wolf" id="1">
+  <data key="d0">makes tea</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="herr hase" target="herr wolf" id="2">
+  <data key="d0">scalds wolf</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="herr hase" target="chest lid" id="0">
+  <data key="d0">bores holes</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="rabbit's new home" target="rabbit's new home" id="0">
+  <data key="d0">resists assault</data>
+  <data key="d1">6</data>
+</edge>
+</graph></graphml>

@@ -1,70 +1,63 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="old master rabbit" />
-    <node id="brer wolf" />
-    <node id="their humble abode" />
-    <node id="master rabbit" />
-    <node id="front door" />
-    <node id="crack of the door" />
-    <node id="was hiding behind the door" />
-    <edge source="old master rabbit" target="old master rabbit" id="0">
-      <data key="d0">were out foraging</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="brer wolf" target="their humble abode" id="0">
-      <data key="d0">had slipped into</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="brer wolf" target="brer wolf" id="0">
-      <data key="d0">grew increasingly agitated and unsure of what to make</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="brer wolf" target="brer wolf" id="1">
-      <data key="d0">began to feel a chill run down his spine as he peered through the crack in the door but saw nothing</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="brer wolf" target="brer wolf" id="2">
-      <data key="d0">hollered back in a hoarse voice</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="master rabbit" target="master rabbit" id="0">
-      <data key="d0">arrived home with haste</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="master rabbit" target="master rabbit" id="1">
-      <data key="d0">noticed that everything seemed</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="master rabbit" target="master rabbit" id="2">
-      <data key="d0">listened intently but heard no signs</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="master rabbit" target="master rabbit" id="3">
-      <data key="d0">called out from a nearby bamboo stump</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="master rabbit" target="master rabbit" id="4">
-      <data key="d0">continued to holler heyo house is something amiss within you</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="master rabbit" target="master rabbit" id="5">
-      <data key="d0">chuckled and thought ah-ah brer wolf that wont do youll have to stand out in the rain for a long time before you can talk as rough as this old house</data>
-      <data key="d1">14</data>
-    </edge>
-    <edge source="master rabbit" target="crack of the door" id="0">
-      <data key="d0">approached cautiously peering through</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="master rabbit" target="was hiding behind the door" id="0">
-      <data key="d0">decided to reason with whoever</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="front door" target="front door" id="0">
-      <data key="d0">was slightly ajar</data>
-      <data key="d1">5</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="ole miss rabbit"/>
+<node id="brer wolf"/>
+<node id="brer rabbit"/>
+<node id="front door"/>
+<node id="house"/>
+<node id="little rabbit"/>
+<node id="brer rabbit's laughter"/>
+<edge source="ole miss rabbit" target="ole miss rabbit" id="0">
+  <data key="d0">ventured out to gather</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="brer wolf" target="brer wolf" id="0">
+  <data key="d0">had slipped into their humble abode</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="brer wolf" target="brer wolf" id="1">
+  <data key="d0">responded with a growl</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="0">
+  <data key="d0">grew weary from his journey</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="1">
+  <data key="d0">noticed an unsettling stillness</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="2">
+  <data key="d0">crept closer</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="3">
+  <data key="d0">peered through the crack</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="4">
+  <data key="d0">continued to holler</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="brer rabbit" target="house" id="0">
+  <data key="d0">hollered at the top of his lungs</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="front door" target="front door" id="0">
+  <data key="d0">creaked slightly on its hinges</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="house" target="house" id="0">
+  <data key="d0">remained silent</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="little rabbit" target="little rabbit" id="0">
+  <data key="d0">leapt off the 'simmon stump</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="brer rabbit's laughter" target="brer rabbit's laughter" id="0">
+  <data key="d0">echoed through the trees</data>
+  <data key="d1">13</data>
+</edge>
+</graph></graphml>

@@ -1,72 +1,67 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="brothers" />
-    <node id="two of the brothers" />
-    <node id="weather" />
-    <node id="hare" />
-    <node id="their godmother" />
-    <node id="pot" />
-    <node id="walnut trees" />
-    <node id="one of the brothers" />
-    <node id="tree" />
-    <edge source="brothers" target="brothers" id="0">
-      <data key="d0">exist</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="brothers" target="brothers" id="1">
-      <data key="d0">decide to go shooting</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="brothers" target="brothers" id="2">
-      <data key="d0">take down guns</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="brothers" target="brothers" id="3">
-      <data key="d0">go to ask for help</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="brothers" target="brothers" id="4">
-      <data key="d0">ask about her garden</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="brothers" target="brothers" id="5">
-      <data key="d0">go to get the hare</data>
-      <data key="d1">14</data>
-    </edge>
-    <edge source="brothers" target="hare" id="0">
-      <data key="d0">come across a hare</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="brothers" target="hare" id="1">
-      <data key="d0">fire at the hare</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="brothers" target="pot" id="0">
-      <data key="d0">choose a pot</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="two of the brothers" target="two of the brothers" id="0">
-      <data key="d0">have no clothes</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="weather" target="weather" id="0">
-      <data key="d0">be bad</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="their godmother" target="their godmother" id="0">
-      <data key="d0">answer through a door</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="their godmother" target="walnut trees" id="0">
-      <data key="d0">offer walnut trees</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="one of the brothers" target="tree" id="0">
-      <data key="d0">shake a tree</data>
-      <data key="d1">13</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="brothers"/>
+<node id="two of the brothers"/>
+<node id="weather"/>
+<node id="hare"/>
+<node id="one of the brothers"/>
+<node id="godmother"/>
+<node id="pot"/>
+<edge source="brothers" target="brothers" id="0">
+  <data key="d0">exist</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="brothers" target="brothers" id="1">
+  <data key="d0">decide to go shooting</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="brothers" target="brothers" id="2">
+  <data key="d0">take guns and walk</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="brothers" target="brothers" id="3">
+  <data key="d0">remember their godmother</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="brothers" target="brothers" id="4">
+  <data key="d0">go to the godmother's door</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="brothers" target="hare" id="0">
+  <data key="d0">fire at the hare</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="brothers" target="pot" id="0">
+  <data key="d0">put hare in pot</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="two of the brothers" target="two of the brothers" id="0">
+  <data key="d0">have no clothes</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="weather" target="weather" id="0">
+  <data key="d0">be bad</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="hare" target="hare" id="0">
+  <data key="d0">be seen</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="one of the brothers" target="one of the brothers" id="0">
+  <data key="d0">ask what to do</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="one of the brothers" target="one of the brothers" id="1">
+  <data key="d0">ask about the garden</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="godmother" target="godmother" id="0">
+  <data key="d0">answer from inside</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="godmother" target="godmother" id="1">
+  <data key="d0">offer walnut trees</data>
+  <data key="d1">14</data>
+</edge>
+</graph></graphml>

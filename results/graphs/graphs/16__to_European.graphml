@@ -1,71 +1,79 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="crocodile" />
-    <node id="mud" />
-    <node id="traveler" />
-    <node id="man" />
-    <node id="man and the crocodile" />
-    <node id="kumbuk tree" />
-    <node id="gentle cow" />
-    <node id="wise jackal" />
-    <edge source="crocodile" target="crocodile" id="0">
-      <data key="d0">made its lair</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="crocodile" target="crocodile" id="1">
-      <data key="d0">turned treacherous</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="crocodile" target="man" id="0">
-      <data key="d0">called out to the man</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="crocodile" target="man" id="1">
-      <data key="d0">replied to the man</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="mud" target="mud" id="0">
-      <data key="d0">dried and hardened</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="traveler" target="traveler" id="0">
-      <data key="d0">passed by on his way</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="traveler" target="traveler" id="1">
-      <data key="d0">broke open the hardened mud</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="man" target="crocodile" id="0">
-      <data key="d0">asked the crocodile</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="man" target="man" id="0">
-      <data key="d0">proposed a condition</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="man and the crocodile" target="man and the crocodile" id="0">
-      <data key="d0">journeyed to gather testimony</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="kumbuk tree" target="man" id="0">
-      <data key="d0">testified against the man</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="gentle cow" target="man" id="0">
-      <data key="d0">testified against the man</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="wise jackal" target="wise jackal" id="0">
-      <data key="d0">rendered its verdict</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="wise jackal" target="crocodile" id="0">
-      <data key="d0">advised the traveler to strike down</data>
-      <data key="d1">14</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="crocodile"/>
+<node id="village tank"/>
+<node id="mud"/>
+<node id="traveler"/>
+<node id="kumbuk tree"/>
+<node id="wise cow"/>
+<node id="cunning jackal"/>
+<edge source="crocodile" target="village tank" id="0">
+  <data key="d0">made lair in</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="crocodile" target="traveler" id="0">
+  <data key="d0">explained predicament</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="crocodile" target="traveler" id="1">
+  <data key="d0">seized traveler's arm</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="crocodile" target="crocodile" id="0">
+  <data key="d0">emerged from prison</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="crocodile" target="crocodile" id="1">
+  <data key="d0">explained hunger</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="mud" target="mud" id="0">
+  <data key="d0">dried and hardened</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="traveler" target="traveler" id="0">
+  <data key="d0">chanced upon scene</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="traveler" target="traveler" id="1">
+  <data key="d0">loosened hardened mud</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="traveler" target="traveler" id="2">
+  <data key="d0">proposed seeking counsel</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="traveler" target="traveler" id="3">
+  <data key="d0">continued seeking counsel</data>
+  <data key="d1">14</data>
+</edge>
+<edge source="traveler" target="crocodile" id="0">
+  <data key="d0">inquired about distress</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="traveler" target="crocodile" id="1">
+  <data key="d0">asked about intentions</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="traveler" target="crocodile" id="2">
+  <data key="d0">dealt mighty blow to</data>
+  <data key="d1">17</data>
+</edge>
+<edge source="traveler" target="kumbuk tree" id="0">
+  <data key="d0">asked venerable tree's opinion</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="kumbuk tree" target="kumbuk tree" id="0">
+  <data key="d0">advised against letting man go</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="wise cow" target="wise cow" id="0">
+  <data key="d0">advised against letting man go</data>
+  <data key="d1">15</data>
+</edge>
+<edge source="cunning jackal" target="cunning jackal" id="0">
+  <data key="d0">proposed beating crocodile</data>
+  <data key="d1">16</data>
+</edge>
+</graph></graphml>

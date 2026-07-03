@@ -1,55 +1,64 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="sultan" />
-    <node id="his daughter" />
-    <node id="priest" />
-    <node id="girl" />
-    <node id="she" />
-    <node id="caravan" />
-    <node id="sultan's son" />
-    <node id="to marry her" />
-    <edge source="sultan" target="sultan" id="0">
-      <data key="d0">has a daughter</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="sultan" target="sultan" id="1">
-      <data key="d0">returns from pilgrimage</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="sultan" target="his daughter" id="0">
-      <data key="d0">trusts priest</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="priest" target="girl" id="0">
-      <data key="d0">harbors intentions</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="priest" target="sultan" id="0">
-      <data key="d0">sends deceitful letter</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="she" target="she" id="0">
-      <data key="d0">refuses advances</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="she" target="she" id="1">
-      <data key="d0">removes ladder</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="she" target="she" id="2">
-      <data key="d0">evades slaves</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="caravan" target="caravan" id="0">
-      <data key="d0">finds the girl</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="sultan's son" target="to marry her" id="0">
-      <data key="d0">requests permission</data>
-      <data key="d1">10</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="sultan"/>
+<node id="priest"/>
+<node id="princess"/>
+<node id="slaves"/>
+<node id="caravan"/>
+<node id="sultan's son"/>
+<node id="young woman"/>
+<node id="his daughter"/>
+<edge source="sultan" target="sultan" id="0">
+  <data key="d0">lived in a kingdom</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="sultan" target="priest" id="0">
+  <data key="d0">entrusted education</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="sultan" target="princess" id="0">
+  <data key="d0">ordered guards to bring</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="sultan" target="his daughter" id="0">
+  <data key="d0">recognized his daughter</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="priest" target="princess" id="0">
+  <data key="d0">harbored secret desires</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="priest" target="sultan" id="0">
+  <data key="d0">sent a deceitful letter</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="princess" target="princess" id="0">
+  <data key="d0">outwitted the priest</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="slaves" target="slaves" id="0">
+  <data key="d0">amputated the princess</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="slaves" target="slaves" id="1">
+  <data key="d0">returned with gazelle's blood</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="caravan" target="caravan" id="0">
+  <data key="d0">discovered the young woman</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="sultan's son" target="young woman" id="0">
+  <data key="d0">requested her as his wife</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="young woman" target="young woman" id="0">
+  <data key="d0">had a prophetic dream</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="young woman" target="young woman" id="1">
+  <data key="d0">discovered her legs grew back</data>
+  <data key="d1">12</data>
+</edge>
+</graph></graphml>

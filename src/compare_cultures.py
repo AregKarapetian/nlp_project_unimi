@@ -111,15 +111,38 @@ def main():
     print("\nSummary by target culture:")
     print(summary)
 
-    # Bar chart
+    # Bar chart with individual story points overlaid
     metrics = ["norm_ged", "relation_overlap", "subject_role_alignment", "object_role_alignment"]
-    fig, axes = plt.subplots(1, len(metrics), figsize=(16, 4))
+    metric_labels = {
+        "norm_ged": "Normalized GED",
+        "relation_overlap": "Relation overlap (Jaccard)",
+        "subject_role_alignment": "Subject-role alignment",
+        "object_role_alignment": "Object-role alignment",
+    }
+    cultures = summary["target_culture"].tolist()
+    culture_colors = {"African_Diaspora": "#55A868", "Asian": "#DD8452", "European": "#4C72B0"}
+    x_pos = {c: i for i, c in enumerate(cultures)}
+
+    fig, axes = plt.subplots(1, len(metrics), figsize=(16, 5))
     for ax, m in zip(axes, metrics):
-        ax.bar(summary["target_culture"], summary[m])
-        ax.set_title(m)
-        ax.tick_params(axis="x", rotation=30)
+        for _, row in summary.iterrows():
+            c = row["target_culture"]
+            ax.bar(x_pos[c], row[m], color=culture_colors.get(c, "steelblue"),
+                   alpha=0.75, width=0.5, zorder=2)
+        # Overlay individual story dots
+        for c in cultures:
+            vals = details[details["target_culture"] == c][m].dropna()
+            jitter = [x_pos[c] + 0.0] * len(vals)
+            ax.scatter(jitter, vals, color="black", s=18, alpha=0.45, zorder=3)
+        ax.set_xticks(range(len(cultures)))
+        ax.set_xticklabels([c.replace("_", "\n") for c in cultures], fontsize=9)
+        ax.set_title(metric_labels[m], fontsize=10, fontweight="bold")
+        ax.set_ylim(bottom=0)
+        ax.grid(axis="y", linestyle="--", alpha=0.4)
+    fig.suptitle("Cross-cultural comparison metrics (bars = mean, dots = individual stories)",
+                 fontsize=11, y=1.01)
     plt.tight_layout()
-    plt.savefig(os.path.join(OUT_DIR, "comparison_by_culture.png"), dpi=150)
+    plt.savefig(os.path.join(OUT_DIR, "comparison_by_culture.png"), dpi=150, bbox_inches="tight")
     print(f"\nSaved chart to {OUT_DIR}/comparison_by_culture.png")
 
 

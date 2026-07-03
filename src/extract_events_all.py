@@ -1,7 +1,7 @@
 import os
 import json
 import re
-from typing import Optional, Dict, Any, List, Tuple
+from typing import Optional, Dict, Any, List
 
 import pandas as pd
 import requests
@@ -20,7 +20,7 @@ RETELLINGS_DIR = os.path.join("results", "retellings")
 
 # Output
 EVENTS_DIR = os.path.join("results", "events")
-EVENTS_JSONL = os.path.join(EVENTS_DIR, "events.jsonl")
+EVENTS_JSONL = os.path.join(EVENTS_DIR, "events_final.jsonl")
 FAILED_DIR = os.path.join(EVENTS_DIR, "raw_failed")
 
 
@@ -89,6 +89,24 @@ def find_json_object(text: str) -> Optional[Dict[str, Any]]:
     return None
 
 
+def extract_events_fallback(text: str) -> Optional[List[str]]:
+    """
+    Last-resort: pull quoted strings from the events array by regex.
+    Handles malformed JSON where the LLM omits the 'event' key.
+    """
+    import re
+    # Find anything inside the outer "events": [...] block
+    m = re.search(r'"events"\s*:\s*\[(.+?)\]', text, re.DOTALL)
+    if not m:
+        return None
+    block = m.group(1)
+    # Extract all quoted strings that look like sentences (>10 chars)
+    candidates = re.findall(r'"([^"]{10,})"', block)
+    # Exclude the literal key "event" and index-like strings
+    events = [c for c in candidates if c.lower() != "event" and not c.isdigit()]
+    return events if events else None
+
+
 def normalize_events(obj: Dict[str, Any]) -> Optional[List[str]]:
     """
     We expect something like:
@@ -108,6 +126,12 @@ def normalize_events(obj: Dict[str, Any]) -> Optional[List[str]]:
         out = []
         for x in ev:
             e = x.get("event")
+            if not isinstance(e, str) or not e.strip():
+                # fallback: find the first string value that isn't the index
+                for k, v in x.items():
+                    if k != "i" and isinstance(v, str) and v.strip():
+                        e = v
+                        break
             if isinstance(e, str) and e.strip():
                 out.append(e.strip())
         return out if out else None
@@ -183,14 +207,21 @@ def extract_events_for_text(
     raw = ollama_generate(prompt)
 
     obj = find_json_object(raw)
-    if obj is None:
-        print(f"[ERROR] Failed events: {story_id} {version} (no JSON found)")
-        write_failed(story_id, version, culture, raw)
-        return False
+    events = normalize_events(obj) if obj else None
 
-    events = normalize_events(obj)
     if events is None:
-        print(f"[ERROR] Failed events: {story_id} {version} (bad schema)")
+        # one retry with a stricter reminder
+        retry_prompt = prompt + "\n\nREMINDER: output valid JSON only, exactly matching the schema above."
+        raw = ollama_generate(retry_prompt)
+        obj = find_json_object(raw)
+        events = normalize_events(obj) if obj else None
+
+    if events is None:
+        # last resort: regex extraction from malformed JSON
+        events = extract_events_fallback(raw)
+
+    if events is None:
+        print(f"[ERROR] Failed events: {story_id} {version} (bad output after retry)")
         write_failed(story_id, version, culture, raw)
         return False
 
@@ -210,7 +241,7 @@ def main():
     # Ensure folders exist
     os.makedirs(EVENTS_DIR, exist_ok=True)
 
-    # Reset output each run (so you don't duplicate lines)
+    # Reset output each run (prevents duplicate lines on re-run)
     if os.path.exists(EVENTS_JSONL):
         os.remove(EVENTS_JSONL)
 

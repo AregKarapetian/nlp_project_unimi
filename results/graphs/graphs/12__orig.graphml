@@ -1,65 +1,61 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="peasant" />
-    <node id="father" />
-    <node id="our lord" />
-    <node id="madonna" />
-    <node id="death" />
-    <node id="lights" />
-    <edge source="peasant" target="peasant" id="0">
-      <data key="d0">had a child</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="peasant" target="peasant" id="1">
-      <data key="d0">asked what would happen</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="peasant" target="madonna" id="0">
-      <data key="d0">passed by the madonna</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="father" target="father" id="0">
-      <data key="d0">took the child</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="father" target="our lord" id="0">
-      <data key="d0">met our lord</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="our lord" target="our lord" id="0">
-      <data key="d0">said he was not just</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="madonna" target="madonna" id="0">
-      <data key="d0">told him to keep looking</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="death" target="death" id="0">
-      <data key="d0">claimed to be just</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="death" target="death" id="1">
-      <data key="d0">agreed to baptize the child</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="death" target="death" id="2">
-      <data key="d0">led the peasant into a room</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="death" target="death" id="3">
-      <data key="d0">refused the peasant's request</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="death" target="death" id="4">
-      <data key="d0">told the peasant to go home</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="lights" target="lights" id="0">
-      <data key="d0">were revealed to be souls</data>
-      <data key="d1">10</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="peasant"/>
+<node id="father"/>
+<node id="our lord"/>
+<node id="madonna"/>
+<node id="death"/>
+<edge source="peasant" target="peasant" id="0">
+  <data key="d0">had a child</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="peasant" target="peasant" id="1">
+  <data key="d0">saw his own light was about to expire</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="peasant" target="peasant" id="2">
+  <data key="d0">asked death to take some oil</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="father" target="father" id="0">
+  <data key="d0">took the child</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="our lord" target="our lord" id="0">
+  <data key="d0">said he didn't know if he was just</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="madonna" target="madonna" id="0">
+  <data key="d0">said she didn't know if she was just</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="death" target="death" id="0">
+  <data key="d0">claimed to be just</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="death" target="death" id="1">
+  <data key="d0">agreed to baptize the child</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="death" target="death" id="2">
+  <data key="d0">led the peasant into a long room</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="death" target="death" id="3">
+  <data key="d0">explained that the lights represented souls</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="death" target="death" id="4">
+  <data key="d0">said he would have to come with him</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="death" target="death" id="5">
+  <data key="d0">told the peasant it was time to go home</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="death" target="death" id="6">
+  <data key="d0">was waiting for the peasant</data>
+  <data key="d1">13</data>
+</edge>
+</graph></graphml>

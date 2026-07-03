@@ -1,70 +1,68 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="bodhisatta" />
-    <node id="hare" />
-    <node id="vilva fruit" />
-    <node id="another hare" />
-    <node id="first hare" />
-    <node id="one hundred thousand hares" />
-    <node id="lion" />
-    <edge source="bodhisatta" target="bodhisatta" id="0">
-      <data key="d0">came to life as</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="bodhisatta" target="bodhisatta" id="1">
-      <data key="d0">saw their headlong flight</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="bodhisatta" target="bodhisatta" id="2">
-      <data key="d0">roared three times to stop them</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="bodhisatta" target="bodhisatta" id="3">
-      <data key="d0">questioned each animal group</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="bodhisatta" target="bodhisatta" id="4">
-      <data key="d0">asked the suspected hare</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="bodhisatta" target="bodhisatta" id="5">
-      <data key="d0">took the hare to a place</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="hare" target="hare" id="0">
-      <data key="d0">lived beneath a palm sapling</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="hare" target="hare" id="1">
-      <data key="d0">thought about the future</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="vilva fruit" target="vilva fruit" id="0">
-      <data key="d0">fell on a leaf</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="another hare" target="another hare" id="0">
-      <data key="d0">saw him running</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="first hare" target="first hare" id="0">
-      <data key="d0">told the cause of his flight</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="one hundred thousand hares" target="one hundred thousand hares" id="0">
-      <data key="d0">took to flight together</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="lion" target="lion" id="0">
-      <data key="d0">asked the elephants a question</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="lion" target="lion" id="1">
-      <data key="d0">discovered the true cause</data>
-      <data key="d1">14</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="bodhisatta"/>
+<node id="hare"/>
+<node id="vilva fruit"/>
+<node id="another hare"/>
+<node id="first hare"/>
+<node id="second hare"/>
+<node id="one hundred thousand hares"/>
+<node id="other animals"/>
+<edge source="bodhisatta" target="bodhisatta" id="0">
+  <data key="d0">came to life</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="bodhisatta" target="bodhisatta" id="1">
+  <data key="d0">saw the headlong flight of animals</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="bodhisatta" target="bodhisatta" id="2">
+  <data key="d0">heard the cause of it</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="bodhisatta" target="bodhisatta" id="3">
+  <data key="d0">thought the earth is nowhere coming to an end</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="bodhisatta" target="bodhisatta" id="4">
+  <data key="d0">got before them to the foot of a mountain</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="bodhisatta" target="bodhisatta" id="5">
+  <data key="d0">roared three times frightening them into stopping their flight</data>
+  <data key="d1">14</data>
+</edge>
+<edge source="hare" target="hare" id="0">
+  <data key="d0">lived beneath</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="hare" target="hare" id="1">
+  <data key="d0">fled without looking back</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="vilva fruit" target="vilva fruit" id="0">
+  <data key="d0">fell on a palm leaf</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="another hare" target="another hare" id="0">
+  <data key="d0">saw him running and asked for the cause of his panic flight</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="first hare" target="first hare" id="0">
+  <data key="d0">said the earth is breaking up</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="second hare" target="second hare" id="0">
+  <data key="d0">ran after him</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="one hundred thousand hares" target="one hundred thousand hares" id="0">
+  <data key="d0">took to flight together</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="other animals" target="other animals" id="0">
+  <data key="d0">saw them running and asked what it meant</data>
+  <data key="d1">9</data>
+</edge>
+</graph></graphml>

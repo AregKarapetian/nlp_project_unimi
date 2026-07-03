@@ -1,69 +1,70 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="hermit" />
-    <node id="enormous cave" />
-    <node id="cave's interior" />
-    <node id="three nefarious bandits" />
-    <node id="bandits" />
-    <node id="three bandits" />
-    <node id="cunning third bandit" />
-    <node id="he" />
-    <node id="his companions" />
-    <node id="tainted victuals" />
-    <edge source="hermit" target="enormous cave" id="0">
-      <data key="d0">chanced upon</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="hermit" target="hermit" id="0">
-      <data key="d0">entered the cave to rest</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="hermit" target="hermit" id="1">
-      <data key="d0">fled the cave</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="hermit" target="hermit" id="2">
-      <data key="d0">was fleeing from death itself</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="hermit" target="bandits" id="0">
-      <data key="d0">led them back to the cave</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="cave's interior" target="cave's interior" id="0">
-      <data key="d0">was filled with an abundance of gold</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="three nefarious bandits" target="three nefarious bandits" id="0">
-      <data key="d0">noticed the hermit's hasty departure</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="bandits" target="bandits" id="0">
-      <data key="d0">were awestruck by the treasure trove of gold</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="three bandits" target="three bandits" id="0">
-      <data key="d0">remained behind bickering over what to do with their newfound wealth</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="three bandits" target="three bandits" id="1">
-      <data key="d0">agreed to send one of their number to a nearby city</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="cunning third bandit" target="cunning third bandit" id="0">
-      <data key="d0">secretly planned to poison his companions' food</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="he" target="his companions" id="0">
-      <data key="d0">brought with him poisoned food</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="tainted victuals" target="tainted victuals" id="0">
-      <data key="d0">caused the bandits to succumb to their deadly effects</data>
-      <data key="d1">13</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="kaito"/>
+<node id="hidden cave"/>
+<node id="three rough men"/>
+<node id="bandits"/>
+<node id="one of the bandits"/>
+<node id="bandit who was sent to the city"/>
+<node id="remaining two bandits"/>
+<node id="him"/>
+<node id="poisoned food"/>
+<node id="hermit"/>
+<edge source="kaito" target="kaito" id="0">
+  <data key="d0">wandered through</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="kaito" target="kaito" id="1">
+  <data key="d0">beheld a treasure trove of gold</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="kaito" target="kaito" id="2">
+  <data key="d0">fled the cave with all haste</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="kaito" target="kaito" id="3">
+  <data key="d0">led the bandits to the cave and pointed</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="kaito" target="kaito" id="4">
+  <data key="d0">beheld the scene of the three lifeless bodies</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="kaito" target="hidden cave" id="0">
+  <data key="d0">stumbled upon</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="three rough men" target="three rough men" id="0">
+  <data key="d0">gave chase to kaito</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="bandits" target="bandits" id="0">
+  <data key="d0">demanded that kaito show them 'death'</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="bandits" target="bandits" id="1">
+  <data key="d0">beheld the treasure</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="one of the bandits" target="one of the bandits" id="0">
+  <data key="d0">suggested dividing the treasure among themselves</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="bandit who was sent to the city" target="bandit who was sent to the city" id="0">
+  <data key="d0">secretly laced food and drink with poison</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="remaining two bandits" target="him" id="0">
+  <data key="d0">planned to strike him down</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="poisoned food" target="poisoned food" id="0">
+  <data key="d0">was brought back to the cave</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="hermit" target="hermit" id="0">
+  <data key="d0">smiled knowingly</data>
+  <data key="d1">14</data>
+</edge>
+</graph></graphml>

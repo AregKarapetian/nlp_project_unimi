@@ -1,71 +1,73 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="chonguita" />
-    <node id="cape of good hope" />
-    <node id="ship from batavia" />
-    <node id="table bay" />
-    <node id="captain van der meer" />
-    <node id="ghostly vessel" />
-    <node id="chonguita and captain van der meer" />
-    <node id="treacherous waters" />
-    <edge source="chonguita" target="cape of good hope" id="0">
-      <data key="d0">lived in</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="0">
-      <data key="d0">grew into a skilled navigator</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="1">
-      <data key="d0">emerged victorious in the first challenge</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="2">
-      <data key="d0">emerged victorious again in the second challenge</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="3">
-      <data key="d0">emerged victorious for the third time</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="ship from batavia" target="table bay" id="0">
-      <data key="d0">struggled to enter</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="captain van der meer" target="captain van der meer" id="0">
-      <data key="d0">put out to sea</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="captain van der meer" target="captain van der meer" id="1">
-      <data key="d0">challenged chonguita</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="captain van der meer" target="captain van der meer" id="2">
-      <data key="d0">conceded defeat to chonguita</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="ghostly vessel" target="ghostly vessel" id="0">
-      <data key="d0">appeared to ships in distress</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="ghostly vessel" target="ghostly vessel" id="1">
-      <data key="d0">appeared less frequently</data>
-      <data key="d1">14</data>
-    </edge>
-    <edge source="chonguita and captain van der meer" target="treacherous waters" id="0">
-      <data key="d0">tried to outguess each other</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="chonguita and captain van der meer" target="chonguita and captain van der meer" id="0">
-      <data key="d0">competed to create an effective sail</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="chonguita and captain van der meer" target="chonguita and captain van der meer" id="1">
-      <data key="d0">competed to create a wall picture</data>
-      <data key="d1">11</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="flying dutchman"/>
+<node id="gods"/>
+<node id="ships"/>
+<node id="treacherous waters"/>
+<node id="galleon from batavia"/>
+<node id="table bay"/>
+<node id="batteries"/>
+<node id="many people"/>
+<node id="dutchman"/>
+<node id="narrator"/>
+<node id="captain owen"/>
+<node id="phantom vessel"/>
+<node id="they"/>
+<node id="many years ago"/>
+<node id="wretched vessel"/>
+<node id="any vessel"/>
+<node id="is certain to be lost forevermore"/>
+<edge source="flying dutchman" target="flying dutchman" id="0">
+  <data key="d0">is doomed to sail</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="gods" target="gods" id="0">
+  <data key="d0">cursed the dutchman</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="ships" target="treacherous waters" id="0">
+  <data key="d0">dare not enter</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="galleon from batavia" target="table bay" id="0">
+  <data key="d0">struggled to make port</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="batteries" target="batteries" id="0">
+  <data key="d0">forced the ship back out</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="many people" target="dutchman" id="0">
+  <data key="d0">claimed to have seen</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="dutchman" target="dutchman" id="0">
+  <data key="d0">seemed to be bearing down upon them</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="narrator" target="narrator" id="0">
+  <data key="d0">witnessed the dutchman</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="narrator" target="wretched vessel" id="0">
+  <data key="d0">swears that he has seen</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="captain owen" target="phantom vessel" id="0">
+  <data key="d0">attempted to close with</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="they" target="they" id="0">
+  <data key="d0">anchored in simon's bay</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="many years ago" target="many years ago" id="0">
+  <data key="d0">on a voyage from england to india</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="any vessel" target="is certain to be lost forevermore" id="0">
+  <data key="d0">which the dutchman can get her letters on board of</data>
+  <data key="d1">13</data>
+</edge>
+</graph></graphml>

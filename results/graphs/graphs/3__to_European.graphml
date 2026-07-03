@@ -1,72 +1,68 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="monk" />
-    <node id="kite" />
-    <node id="mouse" />
-    <node id="almighty" />
-    <node id="his wife" />
-    <node id="young woman" />
-    <node id="sun" />
-    <node id="cloud" />
-    <node id="mountain" />
-    <edge source="monk" target="monk" id="0">
-      <data key="d0">sat on the seashore</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="monk" target="monk" id="1">
-      <data key="d0">gently wrapped the mouse in a leaf and brought it back to his hermitage</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="monk" target="monk" id="2">
-      <data key="d0">prayed to transform the mouse into a young maiden</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="monk" target="monk" id="3">
-      <data key="d0">approached the young woman and said it was time for her to marry</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="monk" target="monk" id="4">
-      <data key="d0">suggested the sun as her potential husband</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="monk" target="his wife" id="0">
-      <data key="d0">presented the young woman to his wife</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="monk" target="sun" id="0">
-      <data key="d0">asked if the sun would marry the young woman</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="kite" target="kite" id="0">
-      <data key="d0">soared overhead carrying a mouse</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="mouse" target="monk" id="0">
-      <data key="d0">fell into the monk's lap</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="almighty" target="almighty" id="0">
-      <data key="d0">transformed the mouse into a young woman</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="young woman" target="young woman" id="0">
-      <data key="d0">desired a powerful husband</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="sun" target="sun" id="0">
-      <data key="d0">declined and mentioned a more powerful entity</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="cloud" target="cloud" id="0">
-      <data key="d0">mentioned the wind as an even more powerful entity</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="mountain" target="mountain" id="0">
-      <data key="d0">admitted being outmatched by a small creature</data>
-      <data key="d1">14</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="monk"/>
+<node id="kite"/>
+<node id="mouse"/>
+<node id="sand"/>
+<node id="wife"/>
+<node id="almighty"/>
+<node id="young woman"/>
+<node id="rat"/>
+<edge source="monk" target="monk" id="0">
+  <data key="d0">dwelled by</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="monk" target="monk" id="1">
+  <data key="d0">explained that this was no ordinary creature</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="monk" target="monk" id="2">
+  <data key="d0">prayed to transform the mouse into a maiden</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="monk" target="monk" id="3">
+  <data key="d0">presented his new daughter</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="monk" target="monk" id="4">
+  <data key="d0">said it was time she wedded</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="monk" target="monk" id="5">
+  <data key="d0">replied perhaps she would like the radiant sun to be her spouse</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="monk" target="monk" id="6">
+  <data key="d0">beseeched the sun to take the maiden as its wife</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="monk" target="mouse" id="0">
+  <data key="d0">picked up</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="kite" target="kite" id="0">
+  <data key="d0">soared above</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="mouse" target="sand" id="0">
+  <data key="d0">tumbled onto</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="wife" target="wife" id="0">
+  <data key="d0">beheld the little bundle</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="almighty" target="almighty" id="0">
+  <data key="d0">granted his prayer</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="young woman" target="young woman" id="0">
+  <data key="d0">desired a husband who holds sway over all else in this world</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="rat" target="rat" id="0">
+  <data key="d0">agreed to marry the maiden</data>
+  <data key="d1">14</data>
+</edge>
+</graph></graphml>

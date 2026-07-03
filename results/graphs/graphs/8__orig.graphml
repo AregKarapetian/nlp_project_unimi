@@ -1,68 +1,62 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="man" />
-    <node id="hollow tree" />
-    <node id="large company of elves" />
-    <node id="where the man was hiding" />
-    <node id="elves" />
-    <node id="neighbor of the man" />
-    <node id="envious neighbor" />
-    <node id="his former boon-companion" />
-    <node id="one of the elves" />
-    <edge source="man" target="man" id="0">
-      <data key="d0">overtaken by darkness</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="man" target="man" id="1">
-      <data key="d0">forgot his fright and crept out of his hollow tree to join in the revels</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="man" target="man" id="2">
-      <data key="d0">walked off to his own house in high glee at having passed a jovial night</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="man" target="hollow tree" id="0">
-      <data key="d0">sought shelter in</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="man" target="elves" id="0">
-      <data key="d0">peeped out from his hiding place and was frightened by</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="large company of elves" target="where the man was hiding" id="0">
-      <data key="d0">assembled at the place</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="elves" target="elves" id="0">
-      <data key="d0">began to feast and drink wine and to amuse themselves by singing and dancing</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="elves" target="elves" id="1">
-      <data key="d0">took the wen as pawn and left the place</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="elves" target="man" id="0">
-      <data key="d0">said that he must come out and have a dance with them again</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="elves" target="his former boon-companion" id="0">
-      <data key="d0">said they would give him back his pledge</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="neighbor of the man" target="neighbor of the man" id="0">
-      <data key="d0">heard about his luck and was smitten with envy</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="envious neighbor" target="envious neighbor" id="0">
-      <data key="d0">went off to hunt for the hollow tree where he spent the night</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="one of the elves" target="one of the elves" id="0">
-      <data key="d0">stuck the pawned wen onto his forehead on top of the other wen he already had</data>
-      <data key="d1">13</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="man"/>
+<node id="hollow tree"/>
+<node id="elves"/>
+<node id="wen on the man's forehead"/>
+<node id="neighbor"/>
+<node id="elf"/>
+<edge source="man" target="man" id="0">
+  <data key="d0">overtaken by darkness</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="man" target="man" id="1">
+  <data key="d0">crept out to join in the revels</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="man" target="man" id="2">
+  <data key="d0">walked off to his house</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="man" target="man" id="3">
+  <data key="d0">got rid of a wen</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="man" target="hollow tree" id="0">
+  <data key="d0">sought shelter</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="elves" target="elves" id="0">
+  <data key="d0">assembled at the place</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="elves" target="elves" id="1">
+  <data key="d0">feast and drink wine</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="elves" target="man" id="0">
+  <data key="d0">frightened out of his wits</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="elves" target="man" id="1">
+  <data key="d0">said you're a jolly companion</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="elves" target="wen on the man's forehead" id="0">
+  <data key="d0">took a wen in pawn</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="elves" target="neighbor" id="0">
+  <data key="d0">said you're a good fellow</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="neighbor" target="neighbor" id="0">
+  <data key="d0">went to hunt for the hollow tree</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="elf" target="elf" id="0">
+  <data key="d0">stuck a wen onto the man's forehead</data>
+  <data key="d1">13</data>
+</edge>
+</graph></graphml>

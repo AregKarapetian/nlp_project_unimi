@@ -30,6 +30,8 @@ def find_json_object(text: str) -> Optional[Dict[str, Any]]:
     if not text:
         return None
     text2 = re.sub(r"```(?:json)?", "", text, flags=re.IGNORECASE).replace("```", "").strip()
+    # Fix invalid \' escape that LLMs sometimes produce
+    text2 = text2.replace("\\'", "'")
     try:
         obj = json.loads(text2)
         if isinstance(obj, dict):

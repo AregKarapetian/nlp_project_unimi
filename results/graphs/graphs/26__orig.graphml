@@ -1,67 +1,64 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="situation" />
-    <node id="rivers" />
-    <node id="animals" />
-    <node id="one of them" />
-    <node id="rabbit" />
-    <node id="them" />
-    <node id="old tortoise" />
-    <node id="tortoise" />
-    <edge source="situation" target="situation" id="0">
-      <data key="d0">there was</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="rivers" target="rivers" id="0">
-      <data key="d0">dried up</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="animals" target="animals" id="0">
-      <data key="d0">gathered together</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="animals" target="animals" id="1">
-      <data key="d0">danced the water</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="animals" target="rabbit" id="0">
-      <data key="d0">saw footprints</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="one of them" target="one of them" id="0">
-      <data key="d0">had a plan</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="one of them" target="one of them" id="1">
-      <data key="d0">suggested dancing</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="rabbit" target="rabbit" id="0">
-      <data key="d0">did not dance</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="rabbit" target="tortoise" id="0">
-      <data key="d0">trod on tortoise</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="them" target="them" id="0">
-      <data key="d0">decided rabbit should have no water</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="old tortoise" target="old tortoise" id="0">
-      <data key="d0">moved forward</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="tortoise" target="tortoise" id="0">
-      <data key="d0">lay down covered with pitch</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="tortoise" target="animals" id="0">
-      <data key="d0">carried rabbit back</data>
-      <data key="d1">13</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="drought"/>
+<node id="rivers"/>
+<node id="animals"/>
+<node id="one animal"/>
+<node id="rabbit"/>
+<node id="other animals"/>
+<node id="tortoise"/>
+<node id="lion"/>
+<edge source="drought" target="drought" id="0">
+  <data key="d0">occurred</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="rivers" target="rivers" id="0">
+  <data key="d0">dried up</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="animals" target="animals" id="0">
+  <data key="d0">gathered</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="animals" target="animals" id="1">
+  <data key="d0">danced</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="animals" target="animals" id="2">
+  <data key="d0">decided rabbit must die</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="one animal" target="one animal" id="0">
+  <data key="d0">suggested dancing</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="rabbit" target="rabbit" id="0">
+  <data key="d0">refused to dance</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="rabbit" target="rabbit" id="1">
+  <data key="d0">requested shameful death</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="rabbit" target="tortoise" id="0">
+  <data key="d0">stepped on tortoise</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="other animals" target="rabbit" id="0">
+  <data key="d0">discovered footprints</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="tortoise" target="tortoise" id="0">
+  <data key="d0">suggested catching rabbit</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="tortoise" target="animals" id="0">
+  <data key="d0">carried rabbit back</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="lion" target="rabbit" id="0">
+  <data key="d0">chose to kill rabbit</data>
+  <data key="d1">13</data>
+</edge>
+</graph></graphml>

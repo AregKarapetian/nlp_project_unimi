@@ -1,79 +1,71 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="farmer's wife" />
-    <node id="cunning crow" />
-    <node id="crow" />
-    <node id="wretched bird" />
-    <node id="grain" />
-    <node id="woodcutter" />
-    <node id="monarch" />
-    <node id="serpent" />
-    <node id="queen" />
-    <node id="stick" />
-    <node id="snake" />
-    <node id="fire" />
-    <node id="water" />
-    <node id="flames" />
-    <node id="ox" />
-    <node id="rope" />
-    <edge source="farmer's wife" target="farmer's wife" id="0">
-      <data key="d0">separates grain</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="farmer's wife" target="crow" id="0">
-      <data key="d0">hurls earth at</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="cunning crow" target="cunning crow" id="0">
-      <data key="d0">snatches a grain</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="crow" target="woodcutter" id="0">
-      <data key="d0">seeks aid from</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="crow" target="crow" id="0">
-      <data key="d0">beseeches the king to</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="crow" target="crow" id="1">
-      <data key="d0">begs the queen to</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="wretched bird" target="grain" id="0">
-      <data key="d0">promises to return</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="monarch" target="monarch" id="0">
-      <data key="d0">sends the crow packing</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="serpent" target="queen" id="0">
-      <data key="d0">declines to bite</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="stick" target="snake" id="0">
-      <data key="d0">refuses to strike</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="fire" target="stick" id="0">
-      <data key="d0">refuses to consume</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="water" target="flames" id="0">
-      <data key="d0">refuses to quench</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="ox" target="water" id="0">
-      <data key="d0">declines to drink from</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="rope" target="ox" id="0">
-      <data key="d0">fails to bind</data>
-      <data key="d1">14</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="farmer's wife"/>
+<node id="crow"/>
+<node id="basket"/>
+<node id="good woman"/>
+<node id="bird"/>
+<node id="grain"/>
+<node id="woodman"/>
+<node id="his majesty"/>
+<node id="serpent"/>
+<node id="queen"/>
+<node id="cat"/>
+<edge source="farmer's wife" target="farmer's wife" id="0">
+  <data key="d0">winnowed corn</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="farmer's wife" target="bird" id="0">
+  <data key="d0">seized the bird</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="crow" target="basket" id="0">
+  <data key="d0">snatched a grain</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="crow" target="crow" id="0">
+  <data key="d0">dropped its prize</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="crow" target="crow" id="1">
+  <data key="d0">promised to retrieve grain</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="crow" target="crow" id="2">
+  <data key="d0">flew off to seek aid</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="crow" target="crow" id="3">
+  <data key="d0">went to the king's palace</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="crow" target="crow" id="4">
+  <data key="d0">sought out the queen</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="good woman" target="bird" id="0">
+  <data key="d0">hurt the bird</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="grain" target="grain" id="0">
+  <data key="d0">lodged in crevice</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="woodman" target="woodman" id="0">
+  <data key="d0">refused to lend axe</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="his majesty" target="his majesty" id="0">
+  <data key="d0">would not be swayed</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="serpent" target="queen" id="0">
+  <data key="d0">refused to bite her</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="cat" target="cat" id="0">
+  <data key="d0">gave chase with ferocity</data>
+  <data key="d1">14</data>
+</edge>
+</graph></graphml>

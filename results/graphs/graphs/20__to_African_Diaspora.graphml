@@ -1,56 +1,69 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="brothers" />
-    <node id="rains" />
-    <node id="kofi" />
-    <node id="kwame" />
-    <node id="three brothers" />
-    <node id="hare" />
-    <node id="kojo" />
-    <node id="yaa" />
-    <node id="pot" />
-    <edge source="brothers" target="brothers" id="0">
-      <data key="d0">huddled together</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="brothers" target="hare" id="0">
-      <data key="d0">stumbled upon a hare</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="brothers" target="pot" id="0">
-      <data key="d0">chose the pot with no bottom</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="rains" target="rains" id="0">
-      <data key="d0">had been relentless</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="kofi" target="kofi" id="0">
-      <data key="d0">suggested going hunting</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="kofi" target="kofi" id="1">
-      <data key="d0">suggested asking yaa about walnuts</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="kwame" target="kwame" id="0">
-      <data key="d0">pointed out they had no clothes</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="three brothers" target="three brothers" id="0">
-      <data key="d0">set off into the wilderness</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="kojo" target="kojo" id="0">
-      <data key="d0">suggested going to yaa's house</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="yaa" target="yaa" id="0">
-      <data key="d0">instructed them to choose a pot</data>
-      <data key="d1">8</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="brothers"/>
+<node id="hare"/>
+<node id="their godmother's door"/>
+<node id="their godmother"/>
+<node id="pot without a bottom"/>
+<node id="one brother"/>
+<node id="their godmother's garden"/>
+<node id="brother"/>
+<node id="barren walnut tree"/>
+<node id="one outsider"/>
+<node id="skimmer"/>
+<node id="physicians"/>
+<node id="their new friend"/>
+<edge source="brothers" target="brothers" id="0">
+  <data key="d0">set out to hunt</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="brothers" target="brothers" id="1">
+  <data key="d0">pressed on</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="brothers" target="brothers" id="2">
+  <data key="d0">fired wildly into the air</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="brothers" target="brothers" id="3">
+  <data key="d0">posted a notice</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="brothers" target="brothers" id="4">
+  <data key="d0">sought out physicians</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="brothers" target="their godmother's door" id="0">
+  <data key="d0">knocked at the door</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="brothers" target="pot without a bottom" id="0">
+  <data key="d0">chose a pot</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="hare" target="hare" id="0">
+  <data key="d0">darted across their path</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="their godmother" target="their godmother" id="0">
+  <data key="d0">told them to enter the kitchen</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="one brother" target="their godmother's garden" id="0">
+  <data key="d0">asked about her garden</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="brother" target="barren walnut tree" id="0">
+  <data key="d0">shook the tree</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="one outsider" target="skimmer" id="0">
+  <data key="d0">drank too deeply from the skimmer</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="physicians" target="their new friend" id="0">
+  <data key="d0">examined and asked and scribbled</data>
+  <data key="d1">13</data>
+</edge>
+</graph></graphml>

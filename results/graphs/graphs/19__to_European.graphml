@@ -1,65 +1,60 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="monarch" />
-    <node id="king" />
-    <node id="queen" />
-    <node id="wise old cock" />
-    <node id="animals" />
-    <node id="sly jackal" />
-    <edge source="monarch" target="monarch" id="0">
-      <data key="d0">lived in a kingdom</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="king" target="king" id="0">
-      <data key="d0">overheard birds singing</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="king" target="king" id="1">
-      <data key="d0">finally relented and decided</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="king" target="king" id="2">
-      <data key="d0">fabricated a tale about planning</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="king" target="king" id="3">
-      <data key="d0">discovered the opposite was true</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="king" target="king" id="4">
-      <data key="d0">dismissed the wild animals</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="queen" target="queen" id="0">
-      <data key="d0">inquired about reason</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="queen" target="queen" id="1">
-      <data key="d0">pressed him for explanation</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="queen" target="queen" id="2">
-      <data key="d0">saw her husband laugh again</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="queen" target="queen" id="3">
-      <data key="d0">suggested gathering animals from ceylon</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="wise old cock" target="wise old cock" id="0">
-      <data key="d0">warned the king of demise</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="animals" target="animals" id="0">
-      <data key="d0">were merely pretending to work</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="sly jackal" target="sly jackal" id="0">
-      <data key="d0">claimed he was calculating ratio</data>
-      <data key="d1">11</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="monarch"/>
+<node id="queen"/>
+<node id="king"/>
+<node id="cock"/>
+<node id="animals from lankawa"/>
+<node id="tank"/>
+<node id="jackal"/>
+<node id="their kingdom"/>
+<edge source="monarch" target="monarch" id="0">
+  <data key="d0">lived in a far-off kingdom</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="monarch" target="monarch" id="1">
+  <data key="d0">strolled through his gardens</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="monarch" target="monarch" id="2">
+  <data key="d0">was safe once more thanks to the jackal</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="queen" target="monarch" id="0">
+  <data key="d0">approached the monarch</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="queen" target="monarch" id="1">
+  <data key="d0">approached the monarch again</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="queen" target="king" id="0">
+  <data key="d0">grew enraged and begged for forgiveness</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="king" target="king" id="0">
+  <data key="d0">hesitated to reveal</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="king" target="king" id="1">
+  <data key="d0">proposed building a grand tank</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="king" target="king" id="2">
+  <data key="d0">discovered the jackal's claim was correct</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="cock" target="monarch" id="0">
+  <data key="d0">told the monarch</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="animals from lankawa" target="tank" id="0">
+  <data key="d0">gathered at the site to help build</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="jackal" target="their kingdom" id="0">
+  <data key="d0">observed a peculiar ratio of males to females</data>
+  <data key="d1">9</data>
+</edge>
+</graph></graphml>

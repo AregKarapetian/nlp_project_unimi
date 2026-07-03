@@ -1,68 +1,62 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="hermit" />
-    <node id="three ruffians" />
-    <node id="one of them" />
-    <node id="devil" />
-    <node id="ruffian" />
-    <node id="poisoned food" />
-    <node id="two remaining ruffians" />
-    <node id="ruffian who went to the city" />
-    <node id="gold" />
-    <edge source="hermit" target="hermit" id="0">
-      <data key="d0">finds a cave</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="hermit" target="hermit" id="1">
-      <data key="d0">sees gold shining</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="hermit" target="hermit" id="2">
-      <data key="d0">runs out of the cave</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="hermit" target="hermit" id="3">
-      <data key="d0">returns to affairs</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="hermit" target="three ruffians" id="0">
-      <data key="d0">shows them gold</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="three ruffians" target="hermit" id="0">
-      <data key="d0">stop the hermit</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="three ruffians" target="three ruffians" id="0">
-      <data key="d0">dismiss the hermit</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="three ruffians" target="three ruffians" id="1">
-      <data key="d0">decide to stay</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="one of them" target="one of them" id="0">
-      <data key="d0">suggests going to city</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="devil" target="ruffian" id="0">
-      <data key="d0">puts a plan in heart</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="poisoned food" target="two remaining ruffians" id="0">
-      <data key="d0">is eaten by them</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="poisoned food" target="ruffian who went to the city" id="0">
-      <data key="d0">is eaten by him</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="gold" target="gold" id="0">
-      <data key="d0">remains untouched</data>
-      <data key="d1">13</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="hermit"/>
+<node id="three ruffians"/>
+<node id="one of them"/>
+<node id="devil"/>
+<node id="ruffian"/>
+<node id="two of them"/>
+<edge source="hermit" target="hermit" id="0">
+  <data key="d0">finds a cave</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="hermit" target="hermit" id="1">
+  <data key="d0">sees gold</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="hermit" target="hermit" id="2">
+  <data key="d0">leaves the cave</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="hermit" target="hermit" id="3">
+  <data key="d0">tells a lie</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="hermit" target="hermit" id="4">
+  <data key="d0">leads them to cave</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="hermit" target="hermit" id="5">
+  <data key="d0">returns to cave</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="three ruffians" target="three ruffians" id="0">
+  <data key="d0">haunt the place</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="three ruffians" target="three ruffians" id="1">
+  <data key="d0">dismiss the hermit</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="three ruffians" target="three ruffians" id="2">
+  <data key="d0">decide to stay</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="one of them" target="one of them" id="0">
+  <data key="d0">suggests selling gold</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="devil" target="devil" id="0">
+  <data key="d0">puts an evil thought</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="ruffian" target="ruffian" id="0">
+  <data key="d0">poisons the food</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="two of them" target="two of them" id="0">
+  <data key="d0">eat poisoned food</data>
+  <data key="d1">12</data>
+</edge>
+</graph></graphml>

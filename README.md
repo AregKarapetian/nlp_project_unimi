@@ -16,19 +16,18 @@ structures can be compared directly.
 ## Key findings
 
 - At the level of simple narrative-graph statistics, the 30 original
-  stories don't separate cleanly by culture: clustering puts most of them
-  (24/30) into a single group with roughly the same culture mix as the
-  whole corpus. This is mild evidence for shared/"universal" narrative
-  shapes, though the sample is small.
+  stories do not separate cleanly by culture: both K-Means and
+  hierarchical clustering produce one dominant mixed-culture group.
+  This is mild evidence for shared "universal" narrative shapes,
+  though the sample is small.
 - Retellings into a **European** style change the narrative graph the
-  most: they have the highest graph-edit distance from the original and
-  by far the weakest preservation of "who does what to whom" (object-role
-  alignment ~0.25, vs. ~0.47-0.67 for the other targets).
+  most: they have the highest graph-edit distance from the original
+  (norm. GED ≈ 0.32) and the weakest object-role alignment (≈ 0.51).
 - Retellings into an **African_Diaspora** style stay closest to the
-  original: highest overlap in the action vocabulary used, and the
-  highest object-role alignment (~0.67).
+  original: lowest graph-edit distance (≈ 0.23) and the highest
+  object-role alignment (≈ 0.71).
 - Across all target cultures, the model is fairly consistent about *who
-  the protagonist is* (subject-role alignment stays around 0.44-0.46) -
+  the protagonist is* (subject-role alignment stays around 0.46–0.50) —
   the differences show up mainly in secondary relationships and word
   choice, not in who drives the story.
 
@@ -38,22 +37,20 @@ structures can be compared directly.
 Phase 1 - Corpus & retellings
   stories.csv              -> 30 folktales (10 European, 10 Asian, 10 African_Diaspora)
   retell_all.py            -> retell each story into the 2 other cultural styles
-  retell_one.py            -> alternate/refined retelling prompt (used for story 1)
 
 Phase 2 - Event extraction
   extract_events_all.py    -> ordered plot-event list per story/retelling
-  extract_events_one.py, repair_raw_failed.py,
-  merge_repaired_into_events.py, fix_events_final.py
-                            -> clean up and merge into events_final.jsonl
+                              -> results/events/events_final.jsonl (90 records)
+  retry_failed_events.py   -> recover any records that failed on first pass
 
 Phase 3 - Narrative graph construction
   extract_triples.py       -> (subject, relation, object) triple per event
-  build_graphs.py           -> narrative graphs + structural stats + role sequences
+  build_graphs.py          -> narrative graphs + structural stats + role sequences
 
 Phase 4 - Clustering & cross-cultural comparison
   cluster_structures.py    -> cluster originals by narrative-graph structure
-  compare_cultures.py      -> orig vs. retelling: graph edit distance,
-                               motif/relation overlap, role alignment
+  compare_cultures.py      -> orig vs. retelling: GED, motif overlap, role alignment
+  visualize_results.py     -> PCA plot + example graph figures
 ```
 
 ## Repository structure
@@ -64,30 +61,26 @@ Phase 4 - Clustering & cross-cultural comparison
 ├── requirements.txt
 ├── stories.csv
 ├── src/
-│   ├── retell_all.py
-│   ├── retell_one.py
-│   ├── extract_events_all.py
-│   ├── extract_events_one.py
-│   ├── repair_raw_failed.py
-│   ├── merge_repaired_into_events.py
-│   ├── fix_events_final.py
-│   ├── check_events_coverage.py
-│   ├── extract_triples.py
-│   ├── build_graphs.py
-│   ├── cluster_structures.py
-│   └── compare_cultures.py
+│   ├── retell_all.py            phase 1: generate retellings
+│   ├── extract_events_all.py    phase 2: extract plot events
+│   ├── retry_failed_events.py   phase 2: recover any extraction failures
+│   ├── extract_triples.py       phase 3: extract (subject, relation, object) triples
+│   ├── build_graphs.py          phase 3: build narrative graphs
+│   ├── cluster_structures.py    phase 4: cluster original stories
+│   ├── compare_cultures.py      phase 4: cross-cultural comparison metrics
+│   └── visualize_results.py     phase 4: PCA + example graph figures
 └── results/
-    ├── retellings/                60 LLM retellings (.txt)
+    ├── retellings/              60 LLM retellings (.txt)
     ├── events/
-    │   └── events_final.jsonl     plot events for all 90 story-versions
+    │   └── events_final.jsonl   plot events for all 90 story-versions
     ├── graphs/
-    │   ├── triples.jsonl          (subject, relation, object) triples per event
-    │   ├── graph_stats.csv        structural features per narrative graph
-    │   ├── role_sequences.jsonl   per-event role sequence per story-version
-    │   └── graphs/*.graphml       narrative graphs (open in Gephi/Cytoscape/networkx)
+    │   ├── triples.jsonl        (subject, relation, object) triples per event
+    │   ├── graph_stats.csv      structural features per narrative graph
+    │   ├── role_sequences.jsonl per-event role sequence per story-version
+    │   └── graphs/*.graphml     narrative graphs (open in Gephi/Cytoscape/networkx)
     └── analysis/
         ├── clusters.csv, *_vs_culture.csv
-        ├── dendrogram.png
+        ├── dendrogram.png, pca_stories.png, example_graphs.png
         ├── comparison_details.csv, comparison_summary.csv
         └── comparison_by_culture.png
 ```
@@ -108,20 +101,17 @@ Phase 4 - Clustering & cross-cultural comparison
 ## Reproducing the pipeline
 
 ```bash
-python src/retell_all.py            # results/retellings/
-python src/extract_events_all.py    # results/events/events.jsonl (+ raw_failed/ on errors)
+python src/retell_all.py          # -> results/retellings/ (60 files)
+python src/extract_events_all.py  # -> results/events/events_final.jsonl
 
 # only needed if extract_events_all.py left anything in results/events/raw_failed/:
-python src/repair_raw_failed.py
-python src/merge_repaired_into_events.py
+python src/retry_failed_events.py
 
-python src/fix_events_final.py      # -> results/events/events_final.jsonl
-python src/check_events_coverage.py # sanity check (90 = 30 stories x 3 versions)
-
-python src/extract_triples.py       # -> results/graphs/triples.jsonl
-python src/build_graphs.py          # -> results/graphs/graph_stats.csv, role_sequences.jsonl, graphs/*.graphml
-python src/cluster_structures.py    # -> results/analysis/clusters.csv, dendrogram.png
-python src/compare_cultures.py      # -> results/analysis/comparison_*.csv, comparison_by_culture.png
+python src/extract_triples.py     # -> results/graphs/triples.jsonl
+python src/build_graphs.py        # -> results/graphs/graph_stats.csv, role_sequences.jsonl, graphs/
+python src/cluster_structures.py  # -> results/analysis/clusters.csv, dendrogram.png
+python src/compare_cultures.py    # -> results/analysis/comparison_*.csv, comparison_by_culture.png
+python src/visualize_results.py   # -> results/analysis/pca_stories.png, example_graphs.png
 ```
 
 All intermediate outputs are already included under `results/`, so the
@@ -150,9 +140,9 @@ repeating the LLM generation steps.
 - The corpus is English-only. Working in a single language with a single
   local model kept the event/triple extraction and the comparison metrics
   tractable, at the cost of not testing any cross-lingual effects.
-- Story 1's retellings were generated with a slightly different, more
-  refined prompt (`retell_one.py`) than stories 2-30
-  (`retell_all.py`), so the 60 retellings aren't fully uniform.
+- All 60 retellings use the same prompt (`retell_all.py`), but the
+  prompt gives the model latitude in how it interprets each cultural
+  style, so the retelling quality is uneven across stories.
 - Event lists, entity labels, and relations all come from single-pass
   Llama 3.1 8B outputs with no human verification, so some noise is
   expected (a few stories produced sparse graphs with very few distinct

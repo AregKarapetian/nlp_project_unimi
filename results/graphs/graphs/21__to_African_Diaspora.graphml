@@ -1,55 +1,69 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="mighty dragon" />
-    <node id="her" />
-    <node id="loving husband" />
-    <node id="she" />
-    <node id="dragon's heart" />
-    <node id="dragon" />
-    <node id="mischievous monkey" />
-    <node id="it" />
-    <edge source="mighty dragon" target="mighty dragon" id="0">
-      <data key="d0">dwelled in its depths</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="her" target="her" id="0">
-      <data key="d0">lay bedridden</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="loving husband" target="her" id="0">
-      <data key="d0">beseeched her</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="she" target="she" id="0">
-      <data key="d0">remained silent</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="she" target="she" id="1">
-      <data key="d0">spoke barely above a whisper</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="dragon's heart" target="dragon's heart" id="0">
-      <data key="d0">swelled with devotion</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="dragon" target="her" id="0">
-      <data key="d0">pleaded once more</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="dragon" target="dragon" id="0">
-      <data key="d0">set out on the shore</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="dragon" target="mischievous monkey" id="0">
-      <data key="d0">spied a mischievous monkey</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="dragon" target="it" id="0">
-      <data key="d0">called out to it</data>
-      <data key="d1">10</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="dragon"/>
+<node id="great waters"/>
+<node id="dragon's wife"/>
+<node id="his wife"/>
+<node id="her desire"/>
+<node id="shore"/>
+<node id="monkey"/>
+<node id="his heart"/>
+<node id="great buddha"/>
+<edge source="dragon" target="great waters" id="0">
+  <data key="d0">dwelled within</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="dragon" target="his wife" id="0">
+  <data key="d0">asked his dear one</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="dragon" target="her desire" id="0">
+  <data key="d0">promised to fulfill</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="dragon" target="shore" id="0">
+  <data key="d0">set off towards</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="dragon" target="dragon" id="0">
+  <data key="d0">spied a monkey</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="dragon" target="dragon" id="1">
+  <data key="d0">revealed his wife's illness</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="dragon's wife" target="dragon's wife" id="0">
+  <data key="d0">waned in vitality</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="his wife" target="his wife" id="0">
+  <data key="d0">remained silent</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="his wife" target="his wife" id="1">
+  <data key="d0">whispered to the dragon</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="his wife" target="his wife" id="2">
+  <data key="d0">revealed her longing</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="monkey" target="monkey" id="0">
+  <data key="d0">agreed to cross the sea</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="monkey" target="monkey" id="1">
+  <data key="d0">cried out in question</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="monkey" target="his heart" id="0">
+  <data key="d0">realized he had left</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="great buddha" target="great buddha" id="0">
+  <data key="d0">spoke to his followers</data>
+  <data key="d1">14</data>
+</edge>
+</graph></graphml>

@@ -1,67 +1,69 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="brer wolf" />
-    <node id="brer rabbit's family" />
-    <node id="brer rabbit" />
-    <node id="straw house" />
-    <node id="pine top house" />
-    <node id="brer rabbit's house" />
-    <node id="chest lid" />
-    <node id="back porch" />
-    <edge source="brer wolf" target="brer rabbit's family" id="0">
-      <data key="d0">make raids on</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="brer wolf" target="straw house" id="0">
-      <data key="d0">tear down</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="brer wolf" target="pine top house" id="0">
-      <data key="d0">raid and destroy</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="brer wolf" target="brer wolf" id="0">
-      <data key="d0">lay low</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="brer wolf" target="brer rabbit's house" id="0">
-      <data key="d0">run into the house</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="brer rabbit" target="brer rabbit" id="0">
-      <data key="d0">build a house</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="brer rabbit" target="brer rabbit" id="1">
-      <data key="d0">make a new house</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="brer rabbit" target="brer rabbit" id="2">
-      <data key="d0">build a new house</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="brer rabbit" target="brer rabbit" id="3">
-      <data key="d0">live in peace</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="brer rabbit" target="brer rabbit" id="4">
-      <data key="d0">hide brer wolf</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="brer rabbit" target="brer rabbit" id="5">
-      <data key="d0">celebrate with a jubilee</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="brer rabbit" target="chest lid" id="0">
-      <data key="d0">pour hot water on</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="brer rabbit" target="back porch" id="0">
-      <data key="d0">display brer wolf's hide</data>
-      <data key="d1">13</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="brer wolf"/>
+<node id="brer rabbit's family"/>
+<node id="brer rabbit"/>
+<node id="straw house"/>
+<node id="one of brer rabbit's children"/>
+<node id="new house"/>
+<node id="brer rabbit and his family"/>
+<node id="plank house"/>
+<node id="chest"/>
+<edge source="brer wolf" target="brer rabbit's family" id="0">
+  <data key="d0">make raids on</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="brer wolf" target="straw house" id="0">
+  <data key="d0">tear down the house</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="brer wolf" target="one of brer rabbit's children" id="0">
+  <data key="d0">raid and take a child</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="brer wolf" target="brer wolf" id="0">
+  <data key="d0">lay low after seeing the new house</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="brer wolf" target="plank house" id="0">
+  <data key="d0">run into the house covered in mud</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="0">
+  <data key="d0">build a house</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="1">
+  <data key="d0">make another house</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="2">
+  <data key="d0">build a new house</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="3">
+  <data key="d0">build a hiding place</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="4">
+  <data key="d0">hide brer wolf in a chest</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="5">
+  <data key="d0">pour scalding water onto the chest lid</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="brer rabbit" target="brer rabbit" id="6">
+  <data key="d0">call in neighbors to celebrate victory over brer wolf</data>
+  <data key="d1">14</data>
+</edge>
+<edge source="brer rabbit" target="chest" id="0">
+  <data key="d0">secretly bore holes and add wood to the fire</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="new house" target="brer rabbit and his family" id="0">
+  <data key="d0">provide peace and quiet for</data>
+  <data key="d1">7</data>
+</edge>
+</graph></graphml>

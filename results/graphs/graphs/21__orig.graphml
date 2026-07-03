@@ -1,68 +1,63 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="dragon" />
-    <node id="mrs. dragon" />
-    <node id="monkey" />
-    <node id="his wife" />
-    <node id="buddha" />
-    <edge source="dragon" target="dragon" id="0">
-      <data key="d0">saw wife's health</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="dragon" target="dragon" id="1">
-      <data key="d0">asked wife what to eat</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="dragon" target="dragon" id="2">
-      <data key="d0">explained monkeys lived in mountains</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="dragon" target="dragon" id="3">
-      <data key="d0">went on shore</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="dragon" target="dragon" id="4">
-      <data key="d0">dived down into water</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="dragon" target="monkey" id="0">
-      <data key="d0">spotted monkey in tree</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="dragon" target="monkey" id="1">
-      <data key="d0">offered to take monkey across sea</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="dragon" target="monkey" id="2">
-      <data key="d0">returned to shore with monkey</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="dragon" target="his wife" id="0">
-      <data key="d0">explained wife wanted monkey heart</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="mrs. dragon" target="mrs. dragon" id="0">
-      <data key="d0">wanted monkey heart</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="mrs. dragon" target="mrs. dragon" id="1">
-      <data key="d0">told she was going to die</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="monkey" target="monkey" id="0">
-      <data key="d0">replied not afraid of falling</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="monkey" target="monkey" id="1">
-      <data key="d0">realized left heart on tree</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="buddha" target="monkey" id="0">
-      <data key="d0">revealed he was actually the monkey</data>
-      <data key="d1">14</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="dragon"/>
+<node id="mrs. dragon"/>
+<node id="monkey"/>
+<edge source="dragon" target="dragon" id="0">
+  <data key="d0">saw wife's health</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="dragon" target="dragon" id="1">
+  <data key="d0">asked wife what to eat</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="dragon" target="dragon" id="2">
+  <data key="d0">pleaded with wife</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="dragon" target="dragon" id="3">
+  <data key="d0">went on shore</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="dragon" target="dragon" id="4">
+  <data key="d0">dived down into water</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="dragon" target="dragon" id="5">
+  <data key="d0">explained why they were going</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="dragon" target="dragon" id="6">
+  <data key="d0">returned to shore with monkey</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="dragon" target="monkey" id="0">
+  <data key="d0">called out to monkey</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="dragon" target="monkey" id="1">
+  <data key="d0">offered to take monkey across sea</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="dragon" target="monkey" id="2">
+  <data key="d0">scolded monkey to hurry up</data>
+  <data key="d1">14</data>
+</edge>
+<edge source="mrs. dragon" target="mrs. dragon" id="0">
+  <data key="d0">refused to tell</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="mrs. dragon" target="mrs. dragon" id="1">
+  <data key="d0">told what she wanted</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="monkey" target="monkey" id="0">
+  <data key="d0">replied no fear of falling</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="monkey" target="monkey" id="1">
+  <data key="d0">realized he left heart on tree</data>
+  <data key="d1">12</data>
+</edge>
+</graph></graphml>

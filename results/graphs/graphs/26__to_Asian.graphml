@@ -1,69 +1,67 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="creatures" />
-    <node id="elephant" />
-    <node id="rabbit" />
-    <node id="animals" />
-    <node id="tortoise" />
-    <node id="lion" />
-    <edge source="creatures" target="creatures" id="0">
-      <data key="d0">gathered together</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="creatures" target="rabbit" id="0">
-      <data key="d0">cheered and jeered at him</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="elephant" target="elephant" id="0">
-      <data key="d0">proposed dancing</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="rabbit" target="rabbit" id="0">
-      <data key="d0">refused to join</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="rabbit" target="rabbit" id="1">
-      <data key="d0">scoffed at them</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="rabbit" target="rabbit" id="2">
-      <data key="d0">drank his fill</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="rabbit" target="tortoise" id="0">
-      <data key="d0">trod on him</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="animals" target="animals" id="0">
-      <data key="d0">danced with all their might</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="animals" target="animals" id="1">
-      <data key="d0">discovered footprints</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="tortoise" target="tortoise" id="0">
-      <data key="d0">spoke up with a plan</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="tortoise" target="tortoise" id="1">
-      <data key="d0">lay down at the river's edge</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="tortoise" target="tortoise" id="2">
-      <data key="d0">slowly emerged from his shell</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="lion" target="rabbit" id="0">
-      <data key="d0">was chosen to dash his head</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="lion" target="lion" id="0">
-      <data key="d0">swung him around</data>
-      <data key="d1">14</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="drought"/>
+<node id="creatures"/>
+<node id="grand assembly"/>
+<node id="monkey"/>
+<node id="animals"/>
+<node id="water"/>
+<node id="rabbit"/>
+<node id="in the mud"/>
+<node id="tortoise"/>
+<node id="lion"/>
+<node id="assembly"/>
+<edge source="drought" target="creatures" id="0">
+  <data key="d0">had befallen</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="grand assembly" target="grand assembly" id="0">
+  <data key="d0">was convened</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="monkey" target="monkey" id="0">
+  <data key="d0">suggested dancing</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="animals" target="animals" id="0">
+  <data key="d0">laughed and danced</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="animals" target="animals" id="1">
+  <data key="d0">watched in amusement</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="animals" target="in the mud" id="0">
+  <data key="d0">discovered footprints</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="water" target="water" id="0">
+  <data key="d0">began to seep</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="rabbit" target="rabbit" id="0">
+  <data key="d0">drank from the pool</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="rabbit" target="rabbit" id="1">
+  <data key="d0">stepped on tortoise's shell</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="rabbit" target="rabbit" id="2">
+  <data key="d0">begged to be dashed</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="tortoise" target="tortoise" id="0">
+  <data key="d0">suggested covering himself</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="lion" target="lion" id="0">
+  <data key="d0">grasped rabbit's tail</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="assembly" target="assembly" id="0">
+  <data key="d0">erupted into laughter</data>
+  <data key="d1">13</data>
+</edge>
+</graph></graphml>

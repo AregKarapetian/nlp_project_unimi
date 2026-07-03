@@ -1,72 +1,69 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="hlakanyana" />
-    <node id="lad" />
-    <node id="they" />
-    <node id="birds" />
-    <node id="boy" />
-    <node id="his digging-stick" />
-    <node id="artisans" />
-    <node id="potters" />
-    <node id="pot" />
-    <edge source="hlakanyana" target="hlakanyana" id="0">
-      <data key="d0">roamed the land</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="hlakanyana" target="hlakanyana" id="1">
-      <data key="d0">proposed a game</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="hlakanyana" target="hlakanyana" id="2">
-      <data key="d0">declared it was time to roast</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="hlakanyana" target="hlakanyana" id="3">
-      <data key="d0">emerged first from the river</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="hlakanyana" target="hlakanyana" id="4">
-      <data key="d0">arrived at a village and proposed to lend hands</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="hlakanyana" target="hlakanyana" id="5">
-      <data key="d0">claimed the potters broke his digging-stick</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="hlakanyana" target="hlakanyana" id="6">
-      <data key="d0">carried the pot to another village and proposed to lend vessel</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="hlakanyana" target="lad" id="0">
-      <data key="d0">chanced upon a lad</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="hlakanyana" target="his digging-stick" id="0">
-      <data key="d0">insisted the boy pay with his digging-stick</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="hlakanyana" target="pot" id="0">
-      <data key="d0">claimed the boys broke the pot</data>
-      <data key="d1">14</data>
-    </edge>
-    <edge source="they" target="birds" id="0">
-      <data key="d0">pursued the birds</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="boy" target="birds" id="0">
-      <data key="d0">protested that hlakanyana ate all the birds</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="artisans" target="his digging-stick" id="0">
-      <data key="d0">broke the digging-stick</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="potters" target="pot" id="0">
-      <data key="d0">offered hlakanyana a pot as compensation</data>
-      <data key="d1">12</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="youth"/>
+<node id="hlakanyana"/>
+<node id="they"/>
+<node id="digging-stick"/>
+<node id="artisans"/>
+<node id="boys"/>
+<node id="goat"/>
+<node id="keepers"/>
+<node id="calf"/>
+<edge source="youth" target="youth" id="0">
+  <data key="d0">finds a lad</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="hlakanyana" target="hlakanyana" id="0">
+  <data key="d0">proposes to the lad</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="hlakanyana" target="hlakanyana" id="1">
+  <data key="d0">declares it is time</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="hlakanyana" target="hlakanyana" id="2">
+  <data key="d0">proposes a game</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="hlakanyana" target="hlakanyana" id="3">
+  <data key="d0">emerges from water first</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="hlakanyana" target="hlakanyana" id="4">
+  <data key="d0">devours the birds</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="hlakanyana" target="hlakanyana" id="5">
+  <data key="d0">lends the boys a pot</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="hlakanyana" target="hlakanyana" id="6">
+  <data key="d0">lends the keepers a goat</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="hlakanyana" target="digging-stick" id="0">
+  <data key="d0">demands payment from boy</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="hlakanyana" target="digging-stick" id="1">
+  <data key="d0">lends the artisans a tool</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="they" target="they" id="0">
+  <data key="d0">chase birds</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="artisans" target="artisans" id="0">
+  <data key="d0">breaks the tool</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="boys" target="goat" id="0">
+  <data key="d0">offers reparation to hlakanyana</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="keepers" target="calf" id="0">
+  <data key="d0">offers reparation to hlakanyana</data>
+  <data key="d1">14</data>
+</edge>
+</graph></graphml>

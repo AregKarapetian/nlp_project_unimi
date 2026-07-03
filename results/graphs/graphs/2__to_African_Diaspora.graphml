@@ -1,73 +1,66 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="young man" />
-    <node id="his father's buffaloes" />
-    <node id="she-dog" />
-    <node id="maiden" />
-    <node id="villagers" />
-    <node id="young man's party" />
-    <node id="fire" />
-    <node id="jitu" />
-    <node id="'bride'" />
-    <node id="'bride' party" />
-    <edge source="young man" target="his father's buffaloes" id="0">
-      <data key="d0">tended to</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="young man" target="young man" id="0">
-      <data key="d0">noticed a sight</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="young man" target="young man" id="1">
-      <data key="d0">discovered the house</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="young man" target="young man" id="2">
-      <data key="d0">declared his wish</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="young man" target="fire" id="0">
-      <data key="d0">threw the dog skin</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="she-dog" target="she-dog" id="0">
-      <data key="d0">shed its skin</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="maiden" target="young man" id="0">
-      <data key="d0">was followed by</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="villagers" target="young man" id="0">
-      <data key="d0">laughed at him</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="villagers" target="young man" id="1">
-      <data key="d0">marveled at him</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="villagers" target="villagers" id="0">
-      <data key="d0">arranged a wedding</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="young man's party" target="young man's party" id="0">
-      <data key="d0">escorted the bride</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="jitu" target="jitu" id="0">
-      <data key="d0">convinced his family</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="jitu" target="jitu" id="1">
-      <data key="d0">took his own life</data>
-      <data key="d1">14</data>
-    </edge>
-    <edge source="'bride'" target="'bride' party" id="0">
-      <data key="d0">chased after them</data>
-      <data key="d1">13</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="themba"/>
+<node id="dog"/>
+<node id="maiden"/>
+<node id="themba's family"/>
+<node id="bride"/>
+<node id="jitu"/>
+<edge source="themba" target="themba" id="0">
+  <data key="d0">lived as herdsman</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="themba" target="themba" id="1">
+  <data key="d0">noticed a sight</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="themba" target="themba" id="2">
+  <data key="d0">followed the dog</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="themba" target="themba" id="3">
+  <data key="d0">wanted to marry the dog</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="themba" target="themba" id="4">
+  <data key="d0">named the master as bridegroom</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="themba" target="themba" id="5">
+  <data key="d0">seized the dog's skin</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="dog" target="dog" id="0">
+  <data key="d0">transformed into maiden</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="maiden" target="maiden" id="0">
+  <data key="d0">donned the dog's skin</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="themba's family" target="themba's family" id="0">
+  <data key="d0">laughed at him</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="bride" target="bride" id="0">
+  <data key="d0">wore the dog's skin</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="bride" target="bride" id="1">
+  <data key="d0">roamed free at night</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="bride" target="bride" id="2">
+  <data key="d0">grewlled when vermilion applied</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="jitu" target="jitu" id="0">
+  <data key="d0">thought he could marry a dog</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="jitu" target="jitu" id="1">
+  <data key="d0">hanged himself in despair</data>
+  <data key="d1">14</data>
+</edge>
+</graph></graphml>

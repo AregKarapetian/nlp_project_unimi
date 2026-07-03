@@ -1,69 +1,66 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="prince" />
-    <node id="his parents" />
-    <node id="kofi" />
-    <node id="akua" />
-    <node id="ama" />
-    <node id="efia" />
-    <edge source="prince" target="prince" id="0">
-      <data key="d0">lived in the village</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="his parents" target="his parents" id="0">
-      <data key="d0">desired to see him married</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="kofi" target="kofi" id="0">
-      <data key="d0">would not settle for any bride</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="kofi" target="kofi" id="1">
-      <data key="d0">set out on his journey</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="kofi" target="kofi" id="2">
-      <data key="d0">thought to himself</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="kofi" target="kofi" id="3">
-      <data key="d0">continued his search</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="kofi" target="kofi" id="4">
-      <data key="d0">thought to himself</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="kofi" target="akua" id="0">
-      <data key="d0">visited the home of akua</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="kofi" target="akua" id="1">
-      <data key="d0">asked her gently</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="kofi" target="ama" id="0">
-      <data key="d0">visited the residence of ama</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="kofi" target="efia" id="0">
-      <data key="d0">led him to the home of efia</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="kofi" target="efia" id="1">
-      <data key="d0">proposed to efia</data>
-      <data key="d1">14</data>
-    </edge>
-    <edge source="akua" target="akua" id="0">
-      <data key="d0">explained that her maid had been careless</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="efia" target="efia" id="0">
-      <data key="d0">recounted how a gentle breeze had blown a jasmine petal onto her skin</data>
-      <data key="d1">13</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="prince"/>
+<node id="azizi"/>
+<node id="his parents"/>
+<node id="they"/>
+<node id="village"/>
+<node id="woman"/>
+<edge source="prince" target="azizi" id="0">
+  <data key="d0">lived in</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="prince" target="prince" id="0">
+  <data key="d0">set off on journey</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="prince" target="prince" id="1">
+  <data key="d0">thought about her</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="prince" target="prince" id="2">
+  <data key="d0">continued on way</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="prince" target="prince" id="3">
+  <data key="d0">thought about her</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="prince" target="prince" id="4">
+  <data key="d0">pressed on</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="prince" target="prince" id="5">
+  <data key="d0">thought about her</data>
+  <data key="d1">14</data>
+</edge>
+<edge source="prince" target="village" id="0">
+  <data key="d0">came to village</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="prince" target="village" id="1">
+  <data key="d0">came to village</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="prince" target="woman" id="0">
+  <data key="d0">saw a woman</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="prince" target="woman" id="1">
+  <data key="d0">came upon a woman</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="prince" target="woman" id="2">
+  <data key="d0">saw a woman</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="his parents" target="his parents" id="0">
+  <data key="d0">urged him to</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="they" target="they" id="0">
+  <data key="d0">replied to</data>
+  <data key="d1">3</data>
+</edge>
+</graph></graphml>

@@ -1,72 +1,75 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="vessel" />
-    <node id="batteries" />
-    <node id="ship" />
-    <node id="dutchman" />
-    <node id="ships" />
-    <node id="hms leven" />
-    <node id="barracouta" />
-    <node id="capt owen" />
-    <node id="leven" />
-    <node id="her log" />
-    <node id="veteran sailor" />
-    <node id="passenger" />
-    <node id="we" />
-    <edge source="vessel" target="vessel" id="0">
-      <data key="d0">entering table bay</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="vessel" target="vessel" id="1">
-      <data key="d0">continuing to beat about</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="batteries" target="ship" id="0">
-      <data key="d0">fired on the distressed ship</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="dutchman" target="ships" id="0">
-      <data key="d0">appearing to ships</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="hms leven" target="barracouta" id="0">
-      <data key="d0">saw her consort</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="barracouta" target="barracouta" id="0">
-      <data key="d0">left no doubt as to her identity</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="barracouta" target="her log" id="0">
-      <data key="d0">seen by her log</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="capt owen" target="barracouta" id="0">
-      <data key="d0">attempted to close with the barracouta</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="leven" target="leven" id="0">
-      <data key="d0">anchored in simon's bay</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="leven" target="leven" id="1">
-      <data key="d0">witnessed another similar phenomenon</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="veteran sailor" target="dutchman" id="0">
-      <data key="d0">not caught by the dutchman</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="passenger" target="passenger" id="0">
-      <data key="d0">saw a vessel in nearly similar circumstances</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="we" target="we" id="0">
-      <data key="d0">hoisted lights over the gangway</data>
-      <data key="d1">13</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="vessel"/>
+<node id="batteries"/>
+<node id="ship"/>
+<node id="'dutchman'"/>
+<node id="ships"/>
+<node id="his majesty's ship leven"/>
+<node id="barracouta"/>
+<node id="many well-known faces"/>
+<node id="leven"/>
+<node id="capt. owen"/>
+<node id="veteran sailor"/>
+<node id="merchant ship passenger"/>
+<node id="crew"/>
+<node id="their bark"/>
+<node id="second officer"/>
+<edge source="vessel" target="vessel" id="0">
+  <data key="d0">entering table bay</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="vessel" target="vessel" id="1">
+  <data key="d0">continuing to beat about</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="batteries" target="ship" id="0">
+  <data key="d0">fired on the distressed ship</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="'dutchman'" target="ships" id="0">
+  <data key="d0">appearing to ships</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="his majesty's ship leven" target="barracouta" id="0">
+  <data key="d0">saw her consort the barracouta</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="barracouta" target="leven" id="0">
+  <data key="d0">arrived at the leven</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="many well-known faces" target="leven" id="0">
+  <data key="d0">looking towards the leven</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="leven" target="leven" id="0">
+  <data key="d0">anchored in simon's bay</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="leven" target="leven" id="1">
+  <data key="d0">witnessed a similar phenomenon</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="capt. owen" target="barracouta" id="0">
+  <data key="d0">attempted to close with the barracouta</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="veteran sailor" target="veteran sailor" id="0">
+  <data key="d0">was not caught</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="merchant ship passenger" target="merchant ship passenger" id="0">
+  <data key="d0">saw a vessel in nearly similar circumstances</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="crew" target="their bark" id="0">
+  <data key="d0">made their bark all snug for the night</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="second officer" target="second officer" id="0">
+  <data key="d0">exclaimed 'voila le volant hollandais!' as he ascended the weather rigging to point out the approaching ship</data>
+  <data key="d1">14</data>
+</edge>
+</graph></graphml>

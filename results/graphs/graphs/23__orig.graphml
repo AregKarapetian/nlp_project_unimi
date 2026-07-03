@@ -1,68 +1,58 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="sennuccio" />
-    <node id="door" />
-    <node id="sennuccio and bedovina" />
-    <node id="bedovina" />
-    <node id="serving-man" />
-    <edge source="sennuccio" target="sennuccio" id="0">
-      <data key="d0">was seated near</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="sennuccio" target="sennuccio" id="1">
-      <data key="d0">replied that bedovina lost</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="sennuccio" target="door" id="0">
-      <data key="d0">asked to shut</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="sennuccio and bedovina" target="sennuccio and bedovina" id="0">
-      <data key="d0">made a bargain</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="sennuccio and bedovina" target="sennuccio and bedovina" id="1">
-      <data key="d0">dared not speak</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="bedovina" target="bedovina" id="0">
-      <data key="d0">grew heavy with sleep</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="bedovina" target="bedovina" id="1">
-      <data key="d0">got out of bed</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="bedovina" target="bedovina" id="2">
-      <data key="d0">shut the door</data>
-      <data key="d1">14</data>
-    </edge>
-    <edge source="bedovina" target="sennuccio" id="0">
-      <data key="d0">scolded sennuccio for leaving</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="serving-man" target="serving-man" id="0">
-      <data key="d0">passed through the street</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="serving-man" target="serving-man" id="1">
-      <data key="d0">went into the inner room</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="serving-man" target="sennuccio" id="0">
-      <data key="d0">found sennuccio sitting</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="serving-man" target="bedovina" id="0">
-      <data key="d0">shook bedovina roughly</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="serving-man" target="bedovina" id="1">
-      <data key="d0">lay down beside</data>
-      <data key="d1">10</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="sennuccio"/>
+<node id="door"/>
+<node id="bedovina"/>
+<node id="serving-man"/>
+<node id="servant"/>
+<node id="door open"/>
+<edge source="sennuccio" target="sennuccio" id="0">
+  <data key="d0">was seated near</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="sennuccio" target="sennuccio" id="1">
+  <data key="d0">dared not speak</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="sennuccio" target="door" id="0">
+  <data key="d0">asked to shut</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="sennuccio" target="servant" id="0">
+  <data key="d0">refused to speak</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="bedovina" target="door" id="0">
+  <data key="d0">refused to shut</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="bedovina" target="bedovina" id="0">
+  <data key="d0">grew heavy with sleep</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="bedovina" target="bedovina" id="1">
+  <data key="d0">got out of bed</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="bedovina" target="bedovina" id="2">
+  <data key="d0">shut the door</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="bedovina" target="servant" id="0">
+  <data key="d0">refused to speak</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="bedovina" target="door open" id="0">
+  <data key="d0">scolded sennuccio for leaving</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="serving-man" target="serving-man" id="0">
+  <data key="d0">passed by their house</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="servant" target="bedovina" id="0">
+  <data key="d0">lay down beside</data>
+  <data key="d1">9</data>
+</edge>
+</graph></graphml>

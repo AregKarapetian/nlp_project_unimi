@@ -52,7 +52,6 @@ Retell the following folktale in the style of {target} folktales.
 {extra}
 Keep the SAME main events and the SAME ending.
 Do NOT add new major plot points.
-Do not change who wins each challenge (coat, cap, wall picture): Chonguita must be the best in all three.
 Keep the length similar to the original: target between {lo} and {hi} words.
 Output ONLY the retold story text. No title. No explanations.
 
@@ -102,7 +101,6 @@ Retell the story fully in the style of {target} folktales.
 Use STANDARD English only. Do NOT imitate dialects, accents, or phonetic spellings.
 Keep the SAME main events and the SAME ending.
 Do NOT add new major plot points.
-Do not change who wins each challenge (coat, cap, wall picture): Chonguita must be the best in all three.
 Output ONLY the full story text.
 
 STORY:

@@ -1,70 +1,59 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="old crone" />
-    <node id="crone" />
-    <node id="chonguita" />
-    <node id="chonguita's mother" />
-    <node id="sprite" />
-    <node id="oak tree" />
-    <node id="woodsman" />
-    <edge source="old crone" target="old crone" id="0">
-      <data key="d0">lived in village</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="crone" target="chonguita" id="0">
-      <data key="d0">beckoned young maiden</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="crone" target="chonguita" id="1">
-      <data key="d0">offered basket of apples</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="crone" target="chonguita" id="2">
-      <data key="d0">filled table with food</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="crone" target="crone" id="0">
-      <data key="d0">pressed on through river</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="0">
-      <data key="d0">entered the room</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="1">
-      <data key="d0">agreed to stay with crone</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="2">
-      <data key="d0">dropped the comb</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="chonguita's mother" target="chonguita's mother" id="0">
-      <data key="d0">entrusted errand to chonguita</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="sprite" target="chonguita" id="0">
-      <data key="d0">warned chonguita of harm</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="sprite" target="chonguita" id="1">
-      <data key="d0">left comb and handkerchief</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="oak tree" target="oak tree" id="0">
-      <data key="d0">sprouted forth from earth</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="woodsman" target="crone" id="0">
-      <data key="d0">struck off the crone's head</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="woodsman" target="chonguita" id="0">
-      <data key="d0">escorted chonguita back home</data>
-      <data key="d1">14</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="situation"/>
+<node id="käthe"/>
+<node id="villagers"/>
+<node id="crone"/>
+<node id="cottage"/>
+<node id="tapestries"/>
+<node id="elfin figure"/>
+<edge source="situation" target="käthe" id="0">
+  <data key="d0">lived</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="situation" target="tapestries" id="0">
+  <data key="d0">adorned the walls with</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="käthe" target="cottage" id="0">
+  <data key="d0">passed by</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="käthe" target="käthe" id="0">
+  <data key="d0">thought about her mother's summons</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="käthe" target="käthe" id="1">
+  <data key="d0">excused herself from the crone</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="käthe" target="käthe" id="2">
+  <data key="d0">agreed to remain with the crone</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="käthe" target="käthe" id="3">
+  <data key="d0">dropped tokens left by the elf</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="villagers" target="crone" id="0">
+  <data key="d0">whispered about</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="crone" target="crone" id="0">
+  <data key="d0">offered käthe a basket of apples</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="crone" target="crone" id="1">
+  <data key="d0">proposed an arrangement to käthe</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="crone" target="crone" id="2">
+  <data key="d0">conjured provisions at käthe's mother's doorstep</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="elfin figure" target="elfin figure" id="0">
+  <data key="d0">warned käthe of impending doom</data>
+  <data key="d1">11</data>
+</edge>
+</graph></graphml>

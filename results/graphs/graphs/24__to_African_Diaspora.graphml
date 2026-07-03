@@ -1,71 +1,57 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="couple" />
-    <node id="wife" />
-    <node id="door" />
-    <node id="man" />
-    <node id="wild dog" />
-    <node id="barber" />
-    <node id="woman" />
-    <node id="her husband" />
-    <edge source="couple" target="couple" id="0">
-      <data key="d0">lived in a village</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="couple" target="couple" id="1">
-      <data key="d0">tilled the land</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="couple" target="couple" id="2">
-      <data key="d0">had a disagreement</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="couple" target="couple" id="3">
-      <data key="d0">retired to their bed content in their silence</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="couple" target="wild dog" id="0">
-      <data key="d0">did not speak a word or tried to shoo the beast away</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="wife" target="door" id="0">
-      <data key="d0">said her child should shut it</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="man" target="man" id="0">
-      <data key="d0">refused to do so and proposed a contest</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="wild dog" target="wild dog" id="0">
-      <data key="d0">entered the room and devoured their meager store of food</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="barber" target="barber" id="0">
-      <data key="d0">came to visit the man</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="barber" target="barber" id="1">
-      <data key="d0">asked what was wrong but the farmer remained mute</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="barber" target="barber" id="2">
-      <data key="d0">hastily departed crying this man is cursed</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="barber" target="man" id="0">
-      <data key="d0">shaved half of the farmer's beard and mustache</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="barber" target="man" id="1">
-      <data key="d0">covered the farmer in a thick layer of lampblack</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="woman" target="her husband" id="0">
-      <data key="d0">saw her husband's transformed appearance</data>
-      <data key="d1">14</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="farmer"/>
+<node id="wife"/>
+<node id="wild dog"/>
+<node id="woman"/>
+<node id="barber"/>
+<edge source="farmer" target="farmer" id="0">
+  <data key="d0">sat by the fire</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="farmer" target="farmer" id="1">
+  <data key="d0">said who speaks first gets to close it</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="farmer" target="wife" id="0">
+  <data key="d0">said you spoke first</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="farmer" target="wife" id="1">
+  <data key="d0">ordered her to begone and shut the door</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="wife" target="wife" id="0">
+  <data key="d0">bickered over who should shut the door</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="wife" target="wife" id="1">
+  <data key="d0">retorted she will not be silenced</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="wife" target="wife" id="2">
+  <data key="d0">saw her husband transformed</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="wife" target="wife" id="3">
+  <data key="d0">cried out in fear</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="wild dog" target="wild dog" id="0">
+  <data key="d0">devoured the family's food</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="woman" target="woman" id="0">
+  <data key="d0">set out to grind grain</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="barber" target="barber" id="0">
+  <data key="d0">chanced upon the farmer</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="barber" target="farmer" id="0">
+  <data key="d0">shaved off half the farmer's beard and mustache</data>
+  <data key="d1">8</data>
+</edge>
+</graph></graphml>

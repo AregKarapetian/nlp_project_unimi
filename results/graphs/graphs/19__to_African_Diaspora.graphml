@@ -1,69 +1,66 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="king" />
-    <node id="birds" />
-    <node id="queen" />
-    <node id="wise old cock" />
-    <node id="animals" />
-    <node id="clever jackal" />
-    <edge source="king" target="king" id="0">
-      <data key="d0">lived in village</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="king" target="king" id="1">
-      <data key="d0">overheard their conversation</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="king" target="king" id="2">
-      <data key="d0">hesitated to reveal secret</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="king" target="king" id="3">
-      <data key="d0">decided to share language</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="king" target="king" id="4">
-      <data key="d0">laughed at the cock's words</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="king" target="king" id="5">
-      <data key="d0">came up with new excuse</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="king" target="king" id="6">
-      <data key="d0">ordered animals to be brought</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="king" target="king" id="7">
-      <data key="d0">decided to investigate further</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="king" target="king" id="8">
-      <data key="d0">realized he understood nature</data>
-      <data key="d1">14</data>
-    </edge>
-    <edge source="birds" target="birds" id="0">
-      <data key="d0">praised the king</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="queen" target="queen" id="0">
-      <data key="d0">asked him what brought joy</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="wise old cock" target="wise old cock" id="0">
-      <data key="d0">said they didn't want charity</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="animals" target="animals" id="0">
-      <data key="d0">failed to build tank</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="clever jackal" target="clever jackal" id="0">
-      <data key="d0">offered explanation for failure</data>
-      <data key="d1">12</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="king"/>
+<node id="queen"/>
+<node id="her husband"/>
+<node id="wise old cock"/>
+<node id="cunning jackal"/>
+<node id="jackal"/>
+<edge source="king" target="king" id="0">
+  <data key="d0">lived in a land</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="king" target="king" id="1">
+  <data key="d0">studied the language</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="king" target="king" id="2">
+  <data key="d0">overheard birds talking</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="king" target="king" id="3">
+  <data key="d0">hesitated to reveal</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="king" target="king" id="4">
+  <data key="d0">confided in the animals</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="king" target="king" id="5">
+  <data key="d0">laughed with sadness</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="king" target="king" id="6">
+  <data key="d0">realized his mistake</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="king" target="jackal" id="0">
+  <data key="d0">called the jackal</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="king" target="jackal" id="1">
+  <data key="d0">asked the jackal a question</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="queen" target="king" id="0">
+  <data key="d0">asked her husband</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="queen" target="her husband" id="0">
+  <data key="d0">continued to prod</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="queen" target="queen" id="0">
+  <data key="d0">vowed to be silent</data>
+  <data key="d1">14</data>
+</edge>
+<edge source="wise old cock" target="king" id="0">
+  <data key="d0">announced the king's doom</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="cunning jackal" target="cunning jackal" id="0">
+  <data key="d0">bounded away</data>
+  <data key="d1">10</data>
+</edge>
+</graph></graphml>

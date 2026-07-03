@@ -1,58 +1,65 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="husband" />
-    <node id="his wife" />
-    <node id="pots and glasses and plates" />
-    <edge source="husband" target="his wife" id="0">
-      <data key="d0">lived with</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="husband" target="his wife" id="1">
-      <data key="d0">tried to pull out</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="husband" target="pots and glasses and plates" id="0">
-      <data key="d0">found broken</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="husband" target="husband" id="0">
-      <data key="d0">asked how</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="husband" target="husband" id="1">
-      <data key="d0">wanted to verify</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="husband" target="husband" id="2">
-      <data key="d0">lowered his wife</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="husband" target="husband" id="3">
-      <data key="d0">asked again how</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="husband" target="husband" id="4">
-      <data key="d0">let her fall</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="husband" target="husband" id="5">
-      <data key="d0">pulled her out</data>
-      <data key="d1">12</data>
-    </edge>
-    <edge source="his wife" target="his wife" id="0">
-      <data key="d0">answered that she</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="his wife" target="his wife" id="1">
-      <data key="d0">broke with scissors</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="his wife" target="his wife" id="2">
-      <data key="d0">continued to insist</data>
-      <data key="d1">9</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="couple"/>
+<node id="husband"/>
+<node id="wife"/>
+<node id="pots and glasses"/>
+<node id="items"/>
+<edge source="couple" target="couple" id="0">
+  <data key="d0">lived together</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="husband" target="husband" id="0">
+  <data key="d0">was a tailor</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="husband" target="husband" id="1">
+  <data key="d0">asked his wife</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="husband" target="husband" id="2">
+  <data key="d0">pressed for an answer</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="husband" target="husband" id="3">
+  <data key="d0">lowered his wife into a well</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="husband" target="husband" id="4">
+  <data key="d0">asked her again</data>
+  <data key="d1">9</data>
+</edge>
+<edge source="husband" target="husband" id="5">
+  <data key="d0">let her down further</data>
+  <data key="d1">11</data>
+</edge>
+<edge source="husband" target="husband" id="6">
+  <data key="d0">let her down into the water</data>
+  <data key="d1">12</data>
+</edge>
+<edge source="husband" target="husband" id="7">
+  <data key="d0">let go of the rope</data>
+  <data key="d1">13</data>
+</edge>
+<edge source="husband" target="husband" id="8">
+  <data key="d0">realized his mistake</data>
+  <data key="d1">14</data>
+</edge>
+<edge source="husband" target="pots and glasses" id="0">
+  <data key="d0">found broken items</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="wife" target="wife" id="0">
+  <data key="d0">was also a tailor</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="wife" target="wife" id="1">
+  <data key="d0">continued to insist</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="wife" target="items" id="0">
+  <data key="d0">said she broke them</data>
+  <data key="d1">7</data>
+</edge>
+</graph></graphml>

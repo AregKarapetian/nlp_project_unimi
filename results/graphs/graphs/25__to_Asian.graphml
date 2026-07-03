@@ -1,71 +1,52 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="order" attr.type="long" />
-  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
-  <graph edgedefault="directed">
-    <node id="chonguita" />
-    <node id="chonguita's husband" />
-    <node id="mother's house" />
-    <node id="samurai on horseback" />
-    <node id="horse" />
-    <node id="group of travelers" />
-    <node id="one of the travelers" />
-    <node id="own home" />
-    <edge source="chonguita" target="chonguita" id="0">
-      <data key="d0">sat by window</data>
-      <data key="d1">1</data>
-    </edge>
-    <edge source="chonguita" target="chonguita" id="1">
-      <data key="d0">borrowed pan</data>
-      <data key="d1">3</data>
-    </edge>
-    <edge source="chonguita's husband" target="mother's house" id="0">
-      <data key="d0">asked to borrow pan</data>
-      <data key="d1">2</data>
-    </edge>
-    <edge source="chonguita's husband" target="chonguita's husband" id="0">
-      <data key="d0">proposed wager</data>
-      <data key="d1">4</data>
-    </edge>
-    <edge source="chonguita's husband" target="chonguita's husband" id="1">
-      <data key="d0">replied that threads were tangled</data>
-      <data key="d1">7</data>
-    </edge>
-    <edge source="chonguita's husband" target="chonguita's husband" id="2">
-      <data key="d0">seized opportunity to weave coat</data>
-      <data key="d1">9</data>
-    </edge>
-    <edge source="chonguita's husband" target="chonguita's husband" id="3">
-      <data key="d0">replied that patterns were set</data>
-      <data key="d1">13</data>
-    </edge>
-    <edge source="chonguita's husband" target="chonguita's husband" id="4">
-      <data key="d0">won wager with skill and patience</data>
-      <data key="d1">14</data>
-    </edge>
-    <edge source="samurai on horseback" target="samurai on horseback" id="0">
-      <data key="d0">rode by house</data>
-      <data key="d1">5</data>
-    </edge>
-    <edge source="samurai on horseback" target="horse" id="0">
-      <data key="d0">asked to weave coat</data>
-      <data key="d1">6</data>
-    </edge>
-    <edge source="samurai on horseback" target="chonguita's husband" id="0">
-      <data key="d0">threatened to cut off head</data>
-      <data key="d1">8</data>
-    </edge>
-    <edge source="samurai on horseback" target="chonguita's husband" id="1">
-      <data key="d0">rewarded him handsomely</data>
-      <data key="d1">10</data>
-    </edge>
-    <edge source="group of travelers" target="group of travelers" id="0">
-      <data key="d0">passed by house</data>
-      <data key="d1">11</data>
-    </edge>
-    <edge source="one of the travelers" target="own home" id="0">
-      <data key="d0">asked to create design</data>
-      <data key="d1">12</data>
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="order" attr.type="long"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="situation"/>
+<node id="in a small village"/>
+<node id="ah-ming"/>
+<node id="mei-ling"/>
+<node id="her aunt"/>
+<node id="lone soldier"/>
+<node id="woman"/>
+<node id="soldier"/>
+<edge source="situation" target="in a small village" id="0">
+  <data key="d0">lived</data>
+  <data key="d1">1</data>
+</edge>
+<edge source="ah-ming" target="mei-ling" id="0">
+  <data key="d0">said to his wife</data>
+  <data key="d1">2</data>
+</edge>
+<edge source="ah-ming" target="ah-ming" id="0">
+  <data key="d0">suggested to his wife</data>
+  <data key="d1">4</data>
+</edge>
+<edge source="ah-ming" target="ah-ming" id="1">
+  <data key="d0">said to his wife</data>
+  <data key="d1">6</data>
+</edge>
+<edge source="mei-ling" target="mei-ling" id="0">
+  <data key="d0">replied to her husband</data>
+  <data key="d1">3</data>
+</edge>
+<edge source="mei-ling" target="mei-ling" id="1">
+  <data key="d0">cried out in distress</data>
+  <data key="d1">10</data>
+</edge>
+<edge source="mei-ling" target="her aunt" id="0">
+  <data key="d0">went and borrowed a wok from her aunt</data>
+  <data key="d1">5</data>
+</edge>
+<edge source="lone soldier" target="lone soldier" id="0">
+  <data key="d0">rode by on a horse and asked for a shoemaker</data>
+  <data key="d1">7</data>
+</edge>
+<edge source="woman" target="woman" id="0">
+  <data key="d0">pointed to ah-ming's house</data>
+  <data key="d1">8</data>
+</edge>
+<edge source="soldier" target="ah-ming" id="0">
+  <data key="d0">entered their home and asked for help</data>
+  <data key="d1">9</data>
+</edge>
+</graph></graphml>
