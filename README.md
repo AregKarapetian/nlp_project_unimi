@@ -51,6 +51,7 @@ Phase 4 - Clustering & cross-cultural comparison
   cluster_structures.py    -> cluster originals by narrative-graph structure
   compare_cultures.py      -> orig vs. retelling: GED, motif overlap, role alignment
   visualize_results.py     -> PCA plot + example graph figures
+  semantic_similarity.py   -> BERT cosine similarity between original and retelling
 ```
 
 ## Repository structure
@@ -68,7 +69,8 @@ Phase 4 - Clustering & cross-cultural comparison
 │   ├── build_graphs.py          phase 3: build narrative graphs
 │   ├── cluster_structures.py    phase 4: cluster original stories
 │   ├── compare_cultures.py      phase 4: cross-cultural comparison metrics
-│   └── visualize_results.py     phase 4: PCA + example graph figures
+│   ├── visualize_results.py     phase 4: PCA + example graph figures
+│   └── semantic_similarity.py   phase 4: BERT semantic similarity
 └── results/
     ├── retellings/              60 LLM retellings (.txt)
     ├── events/
@@ -82,7 +84,9 @@ Phase 4 - Clustering & cross-cultural comparison
         ├── clusters.csv, *_vs_culture.csv
         ├── dendrogram.png, pca_stories.png, example_graphs.png
         ├── comparison_details.csv, comparison_summary.csv
-        └── comparison_by_culture.png
+        ├── comparison_by_culture.png
+        ├── semantic_similarity.csv
+        └── semantic_similarity.png
 ```
 
 ## Setup
@@ -109,9 +113,10 @@ python src/retry_failed_events.py
 
 python src/extract_triples.py     # -> results/graphs/triples.jsonl
 python src/build_graphs.py        # -> results/graphs/graph_stats.csv, role_sequences.jsonl, graphs/
-python src/cluster_structures.py  # -> results/analysis/clusters.csv, dendrogram.png
-python src/compare_cultures.py    # -> results/analysis/comparison_*.csv, comparison_by_culture.png
-python src/visualize_results.py   # -> results/analysis/pca_stories.png, example_graphs.png
+python src/cluster_structures.py      # -> results/analysis/clusters.csv, dendrogram.png
+python src/compare_cultures.py        # -> results/analysis/comparison_*.csv, comparison_by_culture.png
+python src/visualize_results.py       # -> results/analysis/pca_stories.png, example_graphs.png
+python src/semantic_similarity.py     # -> results/analysis/semantic_similarity.csv, semantic_similarity.png
 ```
 
 All intermediate outputs are already included under `results/`, so the
@@ -134,6 +139,10 @@ repeating the LLM generation steps.
 - **Role alignment**: fraction of event positions where the
   subject's (resp. object's) role matches between the original and the
   retelling.
+- **Semantic similarity**: cosine similarity between BERT sentence embeddings
+  (all-MiniLM-L6-v2 via `sentence-transformers`) of the full original and
+  retelling texts. Measures meaning-level preservation independently of the
+  graph structure.
 
 ## Limitations
 

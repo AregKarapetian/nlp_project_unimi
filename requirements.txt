@@ -4,3 +4,4 @@ networkx
 scikit-learn
 matplotlib
 scipy
+sentence-transformers
