@@ -15,7 +15,7 @@ MODEL = "llama3.1:8b"
 ALL_CULTURES = ["European", "Asian", "African_Diaspora"]
 
 # Input
-STORIES_CSV = "stories.csv"  # you run script from project root (C:\Users\aregk\data)
+STORIES_CSV = "stories.csv"  # run this script from the project root
 RETELLINGS_DIR = os.path.join("results", "retellings")
 
 # Output
@@ -147,8 +147,6 @@ def make_event_prompt(story_text: str) -> str:
     - Keep it concise and factual
     """
     wc = word_count(story_text)
-    # Event count guidance based on length
-    # 8–16 is usually fine. We'll suggest it.
     return f"""
 You are extracting plot events from a folktale.
 
@@ -249,7 +247,7 @@ def main():
     if not os.path.exists(STORIES_CSV):
         raise FileNotFoundError(
             f"Could not find {STORIES_CSV} in current folder. "
-            "Run this script from your project root (C:\\Users\\aregk\\data)."
+            "Run this script from the project root."
         )
 
     df = pd.read_csv(STORIES_CSV)

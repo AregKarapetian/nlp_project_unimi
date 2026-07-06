@@ -60,8 +60,8 @@ def plot_pca():
 
 
 def plot_example_graphs():
-    # Pick two contrasting stories: one dense (story 9 - African Diaspora, 13 nodes)
-    # and one sparse (story 1 - Asian, 8 nodes)
+    # Two contrasting examples: story 9 has a rich multi-entity graph,
+    # story 1 is dominated by self-loops (extraction returned no objects)
     examples = [
         ("9", "orig", "Story 9 (African Diaspora original)"),
         ("1", "orig", "Story 1 (Asian original)"),
@@ -99,21 +99,36 @@ def plot_example_graphs():
             else:
                 colors.append("#3498DB")   # other
 
-        pos = nx.spring_layout(simple, seed=42, k=1.5)
+        pos = nx.spring_layout(simple, seed=42, k=2.0)
         nx.draw_networkx_nodes(simple, pos, ax=ax, node_size=sizes,
-                               node_color=colors, alpha=0.9)
-        nx.draw_networkx_labels(simple, pos, ax=ax, font_size=7, font_color="white",
-                                font_weight="bold")
+                               node_color=colors, alpha=0.9,
+                               edgecolors="white", linewidths=1.0)
         nx.draw_networkx_edges(simple, pos, ax=ax, arrows=True,
                                arrowstyle="-|>", arrowsize=15,
                                edge_color="#555", width=1.2,
                                connectionstyle="arc3,rad=0.1")
 
-        # Edge labels (truncate long relations)
-        edge_labels = {(u, v): d["label"].split("\n")[0][:20]
-                       for u, v, d in simple.edges(data=True)}
-        nx.draw_networkx_edge_labels(simple, pos, edge_labels=edge_labels,
-                                     ax=ax, font_size=6, label_pos=0.35)
+        # Entity names below each node, in black on a white background,
+        # so long labels are never clipped by the circle
+        label_pos = {n: (x, y - 0.09) for n, (x, y) in pos.items()}
+        nx.draw_networkx_labels(
+            simple, label_pos, ax=ax, font_size=8, font_color="black",
+            font_weight="bold",
+            bbox=dict(boxstyle="round,pad=0.15", facecolor="white",
+                      edgecolor="none", alpha=0.75),
+        )
+
+        # Edge labels: only for edges between two different entities
+        # (self-loop labels clutter the drawing), full relation phrase
+        edge_labels = {(u, v): d["label"].split("\n")[0]
+                       for u, v, d in simple.edges(data=True) if u != v}
+        nx.draw_networkx_edge_labels(
+            simple, pos, edge_labels=edge_labels, ax=ax,
+            font_size=6.5, label_pos=0.4,
+            bbox=dict(boxstyle="round,pad=0.1", facecolor="white",
+                      edgecolor="none", alpha=0.7),
+        )
+        ax.margins(0.15)
 
         ax.set_title(title, fontsize=11, fontweight="bold")
         ax.axis("off")

@@ -160,11 +160,4 @@ repeating the LLM generation steps.
   differences reported above are descriptive trends, not statistically
   tested.
 
-## AI usage disclaimer
 
-Parts of this project (cleaning up the event-extraction pipeline, building
-the narrative-graph construction, clustering, and cross-cultural comparison
-scripts) were developed with the assistance of
-an AI coding assistant (Claude, Anthropic). All AI-assisted code and text
-were reviewed and adjusted by the author, who takes full responsibility for
-the final content.

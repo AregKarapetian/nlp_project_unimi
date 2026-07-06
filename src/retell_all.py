@@ -11,10 +11,7 @@ def word_count(s: str) -> int:
     return len(str(s).split())
 
 def clean_commentary(text: str) -> str:
-    """
-    Best-effort cleanup: remove common meta-comment lines if they appear.
-    (Your prompt should already prevent most of these.)
-    """
+    """Best-effort cleanup: remove common meta-comment lines if they appear."""
     bad_prefixes = ("this is", "i will", "i'll", "here is", "retelling", "sure")
     cleaned_lines = []
     for line in str(text).splitlines():
@@ -60,7 +57,6 @@ STORY:
 """.strip()
 
 def main():
-    # Your folder layout: DATA/stories.csv, DATA/src/, DATA/results/
     df = pd.read_csv("stories.csv")
 
     os.makedirs("results/retellings", exist_ok=True)

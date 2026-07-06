@@ -2,9 +2,8 @@
 Compute semantic similarity between each original story and its retellings
 using BERT sentence embeddings (all-MiniLM-L6-v2 via sentence-transformers).
 
-This connects directly to L3/L5 course content (transformer-based text
-representations) and complements the graph-structural metrics in compare_cultures.py
-by measuring meaning-level preservation, not just graph shape.
+Complements the graph-structural metrics in compare_cultures.py by measuring
+meaning-level preservation, not just graph shape.
 
 Run from project root:
     python src/semantic_similarity.py
