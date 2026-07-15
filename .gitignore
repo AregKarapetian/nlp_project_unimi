@@ -8,7 +8,15 @@ results/events/raw_failed/
 results/graphs/raw_failed/
 
 # LaTeX build artifacts
-report.aux
-report.log
-report.out
-report.synctex.gz
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.nav
+*.snm
+*.toc
+
+# Personal prep notes and presentation source (only presentation.pdf is published)
+presentation.tex
+speaker_notes.tex
+speaker_notes.pdf
